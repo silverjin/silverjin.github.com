@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Baroque",
+  "description": "Eunjin Ahn, 2017",
+  "version": "1.0",
+  "icons": { "16": "icon.png",
+             "48": "icon.png",
+            "128": "icon.png"
+    },
+  "web_accessible_resources": [
+    "pointing-finger.png"
+  ],
+  "content_scripts": [ {
+    "matches": ["http://*/*", "https://*/*"],
+   "css": ["style.css"],
+   "js": ["jquery-2.1.4.js", "script.js"],
+   "run_at" : "document_end"
+  } ]
+}

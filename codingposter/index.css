@@ -1,0 +1,377 @@
+
+/*
+@font-face {
+  font-family: 'vcr';
+  src:  url('fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+*/
+
+* {
+  margin:0;
+  box-sizing: border-box;
+}
+body,html {
+  background-color: #4556a6
+
+
+    /*
+    height: 100%;
+    font-family: helvetica;
+    */
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+
+.myellipse1{
+  position: absolute;
+  top: 40%;
+  left: 64%;
+  border: 0px solid black;
+  width: 600px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse2{
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse3{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  border: 0px solid black;
+  width: 900px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse4{
+  position: absolute;
+  top: 70%;
+  left: 14%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse5{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse6{
+  position: absolute;
+  top: 5%;
+  left: 57%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse7{
+  position: absolute;
+  top: 120%;
+  left: 5%;
+  border: 0px solid black;
+  width: 700px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse8{
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  border: 0px solid black;
+  width: 600px;
+  height: 200px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse9{
+  position: absolute;
+  top: 120%;
+  left: 58%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse10{
+  position: absolute;
+  top: 140%;
+  left: 20%;
+  border: 0px solid black;
+  width: 600px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse11{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  border: 0px solid black;
+  width: 600px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse12{
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  border: 0px solid black;
+  width: 600px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse13{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse14{
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse15{
+  position: absolute;
+  top: 160%;
+  left: 64%;
+  border: 0px solid black;
+  width: 600px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse16{
+  position: absolute;
+  top: 160%;
+  left: 6%;
+  border: 0px solid black;
+  width: 600px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse17{
+  position: absolute;
+  top: 180%;
+  left: 25%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse18{
+  position: absolute;
+  top: 160%;
+  left: 40%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+.myellipse19{
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  border: 0px solid black;
+  width: 700px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #3a3a3c;
+  z-index: 1;
+}
+
+
+
+.mytext {
+  position: absolute;
+  color:#fef200;
+  font-size: 290px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 8px 8px rgba(114,100,100,1) ;
+  margin-left: 100px;
+  margin-right: 100px;
+  z-index: 2;
+}
+
+
+
+
+  .layer {
+    position: absolute;
+    top: -2%;
+    left: 12%;
+    width: 1300px;
+    z-index: 100;
+  }
+
+  .mycircle1 {
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    width: 680px;
+    z-index: 6;
+  }
+
+  .mycircle2_1 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 567px;
+    z-index: 6;
+  }
+
+  .mycircle7 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 567px;
+    z-index: 6;
+  }
+
+  .mycircle6 {
+    position: absolute;
+    top: 155%;
+    left: 10%;
+    width: 957px;
+    z-index: 6;
+  }
+
+  .mycircle8 {
+    position: absolute;
+    top: 135%;
+    left: 78%;
+    width: 336px;
+    z-index: 6;
+  }
+
+  .mycircle9 {
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    width: 764px;
+    z-index: 6;
+  }

@@ -1,0 +1,198 @@
+body {
+	padding: 20px;
+	margin: 0;
+}
+
+.box {
+	float: left;
+	margin: 20px;
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+}
+
+
+.box {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+#box-1 {
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+}
+
+#box-2 {
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+}
+
+#box-3 {
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+}
+
+#box-4 {
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+
+}
+
+
+#box-5 {
+	width: 805px;
+	height: 544px;
+	background: url(http://i.imgur.com/jpoAn4p.jpg);
+	border: 0px solid #000;
+}
+
+
+#box-6 {
+	width: 480px;
+	height: 361px;
+	background: url(http://i.imgur.com/laZbNDY.jpg);
+	border: 0px solid #000;
+}
+
+#box-7 {
+	width: 820px;
+	height: 833px;
+	background: url(http://i.imgur.com/pNkpV5x.jpg);
+	border: 0px solid #000;
+}
+
+#box-8 {
+	width: 500px;
+	height: 256px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	border: 0px solid #000;
+}
+
+
+#box-9 {
+	width: 650px;
+	height: 433px;
+	background: url(http://i.imgur.com/lPm4sen.jpg);
+	border: 0px solid #000;
+}
+
+
+#box-10 {
+	width: 400px;
+	height: 380px;
+	background: url(http://i.imgur.com/uyn3fm0.jpg);
+	border: 0px solid #000;
+}
+
+#box-1 {
+	position: relative;
+	font-size:25px; font-family:'Franklin Gothic Medium'; font-weight:bold; color:e70000;
+	top: 0px;
+	left: 70px;
+}
+
+#box-2 {
+	position: relative;
+	top: 550px;
+	left: 20px;
+	font-size:25px; font-family:'Franklin Gothic Medium'; font-weight:bold; color:e70000;
+}
+
+#box-3 {
+	position: fixed;
+	top: 30px;
+	left: 200px;
+	font-size:35px; font-family:'Franklin Gothic Medium'; font-weight:bold; color:e70000;
+}
+
+#box-4 {
+	z-index: 10;
+	position: fixed;
+	top: 300px;
+	left: 1200px;
+	font-size:25px; font-family:'Franklin Gothic Medium'; font-weight:bold; color:e70000;
+}
+
+
+#box-5 {
+	position: absolute;
+	top: 900px;
+	left: 820px;
+	background: url(http://i.imgur.com/jpoAn4p.jpg);
+		border: 0px solid #000;
+}
+
+
+#box-6 {
+	position: absolute;
+	top: 1480px;
+	left: 1240px;
+	background: url(http://i.imgur.com/laZbNDY.jpg);
+		border: 0px solid #000;
+}
+
+#box-7 {
+	position: absolute;
+	top: 1700px;
+	left: 100px;
+	background: url(http://i.imgur.com/pNkpV5x.jpg);
+		border: 0px solid #000;
+}
+
+#box-8 {
+	position: absolute;
+	top: 2670px;
+	left: 400px;
+	background: url(http://i.imgur.com/ZVSplRq.png);
+	font-size:30px; font-family:'Franklin Gothic Medium'; font-weight:bold; color:e70000;
+		border: 0px solid #000;
+
+}
+
+#box-9 {
+	position: absolute;
+	top: 2530px;
+	left: 1000px;
+	background: url(http://i.imgur.com/lPm4sen.jpg);
+		border: 0px solid #000;
+
+}
+
+#box-10 {
+	position: absolute;
+	top: 2000px;
+	left: 1200px;
+	background: url(http://i.imgur.com/uyn3fm0.jpg);
+		border: 0px solid #000;
+
+}
+
+.box p {
+	margin-top: 80px;
+}
+
+.box p:hover span.info {
+	display: block;
+}
+
+
+.box p span.info {
+	display: none;
+}
+
+::-webkit-scrollbar{ width:8px; }
+::-webkit-scrollbar-track{ background:#000000; -webkit-border-radius:0; border-radius:0; }
+::-webkit-scrollbar-thumb{ width:50px; background-color:#666666; }
+::-webkit-scrollbar-thumb:hover{ width:50px; background-color:#B40404; }
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress !important;} /* End http://www.cursors-4u.com */
