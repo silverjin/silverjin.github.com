@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0231)https://cdpn.io/boomboom/v2/index.html?height=590&theme-id=0&slug-hash=eBppyE&default-tab=result&animations=run&editable=&embed-version=2&preview=true&user=seanfree&name=cp_embed_1&key=iFrameKey-87ce1c29-200e-17eb-7f4f-b06c83d3ef6b -->
+<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./console_runner-1df7d3399bdc1f40995a35209755dcfd8c7547da127f6469fd81e5fba982f6af.js"></script>
+<script src="./css_reload-5619dc0905a68b2e6298901de54f73cefe4e079f65a75406858d92924b4938bf.js"></script>
+
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+<link rel="canonical" href="https://codepen.io/seanfree/embed/eBppyE?height=590&amp;theme-id=0&amp;slug-hash=eBppyE&amp;default-tab=result&amp;animations=run&amp;editable=&amp;embed-version=2&amp;preview=true&amp;user=seanfree&amp;name=cp_embed_1">
+<link rel="stylesheet" href="./reset.min.css">
+<style class="cp-pen-styles">
+          body {
+  background: #cfcfcf;
+}
+
+#container, #water {
+  background-image: url("https://i.imgur.com/d5ys5KO.png");
+}
+
+#container {
+  position: absolute;
+  height: 2124px;
+  width: 1500px;
+}
+#container:after {
+  position: absolute;
+  top: 10%;
+  left: 2.5%;
+  z-index: -1;
+  content: '';
+  display: block;
+  height: 10%;
+  width: 10%;
+  background: #0f0f0f;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+}
+#container #water {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: url("#turbulence");
+          filter: url("#turbulence");
+  overflow: hidden;
+  background-image: url("https://i.imgur.com/RjqCbwW.png");
+}
+
+#codepen-link {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  height: 0px;
+  width: 0px;
+  z-index: 10;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-image: url("https://i.imgur.com/nBS9yLO.png");
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  transition: all 0.30s;
+}
+#codepen-link:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 6px #0c0c0c;
+}
+
+        </style>
+</head>
+<body>
+<div id="container">
+<div id="water"></div>
+</div>
+<svg xlmns="http://www.w3.org/2000/svg" version="1.1">
+<filter id="turbulence" filterUnits="objectBoundingBox" x="0" y="0" width="100%" height="100%">
+<feturbulence id="feturbulence" type="fractalNoise" numOctaves="3" seed="2" baseFrequency="0.017704333333333332 0.12704333333333334"></feturbulence>
+<fedisplacementmap xChannelSelector="G" yChannelSelector="B" scale="20" in="SourceGraphic"></fedisplacementmap>
+</filter>
+</svg>
+<a id="codepen-link" href="https://www.codepen.io/seanfree" target="_blank"></a>
+<script src="./stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script><script src="./TweenMax.min.js"></script>
+<script id="rendered-js">
+          let timeline = new TimelineMax({
+  repeat: -1,
+  yoyo: true }),
+
+feTurb = document.querySelector('#feturbulence');
+
+timeline.add(
+TweenMax.to(feTurb, 15, {
+  onUpdate: function () {
+    let bfX = this.progress() * 0.005 + 0.015, //base frequency x
+    bfY = this.progress() * 0.05 + 0.1; //base frequency y
+    feTurb.setAttribute('baseFrequency', `${bfX} ${bfY}`);
+  } }),
+0);
+          //# sourceURL=pen.js
+        </script>
+
+
+</body></html>
