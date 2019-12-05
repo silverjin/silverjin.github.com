@@ -80,7 +80,7 @@ body::-webkit-scrollbar-thumb {
   width: auto;
   float: left;
   margin-top: -18px;
-  margin-left: 150px;
+  margin-left: 160px;
   vertical-align: top;
   display: block;
   position: absolute;
@@ -96,18 +96,7 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-.right2 {
-  width: auto;
-  float: left;
-  margin-top: -18px;
-  margin-left: 140px;
-  vertical-align: top;
-  display: block;
-  position: absolute;
-  text-align: left;
-  font-size: 2;
 
-}
 .work {
   margin-top: -30px;
   vertical-align: top;
@@ -128,7 +117,7 @@ body::-webkit-scrollbar-thumb {
 .card-container .card a {
   padding: 0px;
   width: 250px;
-  height: 355px;
+  height: 354px;
   background: black;
   display: inline-block;
   transition: 0.40s ease;
@@ -176,7 +165,7 @@ body::-webkit-scrollbar-thumb {
 .card-container .card .card--border {
   position: absolute;
   width: 250px;
-  height: 355px;
+  height: 354px;
   left: 0;
   top: 0;
   border: 1.5px dashed white;
