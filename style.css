@@ -81,6 +81,7 @@ body::-webkit-scrollbar-thumb {
   float: left;
   margin-top: -18px;
   margin-left: 160px;
+  margin-bottom: 80px;
   vertical-align: top;
   display: block;
   position: absolute;
