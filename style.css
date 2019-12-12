@@ -2,8 +2,6 @@
 
 body {
   padding: 50px;
-  display: flex;
-  flex-flow: wrap;
   font-family: 'Roboto Mono', monospace;
   background-color: #000000;
   color: #ffffff;
@@ -64,12 +62,11 @@ body::-webkit-scrollbar-thumb {
   background-color: #000000;
   border-radius: 30px;
   -webkit-box-shadow: inset 0 0 2px #ffffff;
-  outline: 10px solid black;
+  outline: 10px solid white;
 }
 
 .left{
-  width: 140px;
-  height: 100vh;
+  width: 120px;
   position: absolute;
   float: left;
   font-family: 'Roboto Mono', monospace;
@@ -77,9 +74,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .right {
-  width: auto;
+  width: 100%;
   float: left;
-  margin-top: -18px;
+  margin-top: -16px;
   margin-left: 160px;
   margin-bottom: 80px;
   vertical-align: top;
@@ -119,13 +116,16 @@ body::-webkit-scrollbar-thumb {
   padding: 0px;
   width: 250px;
   height: 354px;
-  background: black;
   display: inline-block;
-  transition: 0.40s ease;
+  transition: 0.50s ease;
   overflow: hidden;
+  background-color: black;
+
 }
 .card-container .card a:hover {
-  transform: translate(-10px, -10px);
+  transform: translate(-7px, -7px);
+  background-color: black;
+
 
 }
 .card-container .card a:hover .card--display {
@@ -146,7 +146,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 2;
 }
 .card-container .card a .card--hover {
-  display: none;
+  display: inline-block;
   font-size: 2;
 }
 .card-container .card a .card--hover h2 {
@@ -169,6 +169,6 @@ body::-webkit-scrollbar-thumb {
   height: 354px;
   left: 0;
   top: 0;
-  border: 1.5px dashed white;
+  border: 2px dashed white;
   z-index: -100;
 }
