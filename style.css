@@ -13,7 +13,7 @@ body {
 
 
 a {
-  font-size: 19px;
+  font-size: 1.53rem;
   text-decoration: none; }
 
 /* unvisited link */
@@ -102,8 +102,58 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width : 500px) {
+  body {
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.5rem;
+    line-height: 1.3;
+    font-weight: normal;
+    overflow-x: hidden;
+
+  }
+
+
+  a {
+    font-size: 0.5rem;
+    text-decoration: none; }
+
+  /* unvisited link */
+  a:link {
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
+  }
+
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
+  }
+
 .left {
-  display: none;
+  width: 22%;
+  height: 100%;
+  overflow-x: scroll;
+  color: #ffffff;
+  position: fixed;
+  overflow-y: scroll;
 }
 }
 
@@ -111,17 +161,12 @@ body::-webkit-scrollbar-thumb {
 .right {
   position: absolute;
   width: 100%;
-  margin: 0px;
-  z-index: -100;
 }
 }
 
 @media (max-width : 500px) {
 .rotate {
-    position: absolute;
-    z-index: 100;
-    width: 10%;
-    display: inline-block;
+    display: none;
   }
 
 }
