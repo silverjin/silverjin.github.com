@@ -105,8 +105,8 @@ body::-webkit-scrollbar-thumb {
   body {
     padding: 0px;
     font-family: "Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     font-size: 0.5rem;
     line-height: 1.3;
     font-weight: normal;
@@ -160,7 +160,6 @@ body::-webkit-scrollbar-thumb {
 @media (max-width : 500px) {
 .right {
   position: absolute;
-  width: auto;
 }
 }
 
