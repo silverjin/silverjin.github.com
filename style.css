@@ -148,7 +148,7 @@ body::-webkit-scrollbar-thumb {
   }
 
 .left {
-  width: 22%;
+  width: 30%;
   height: 100%;
   overflow-x: scroll;
   color: #ffffff;
@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb {
 @media (max-width : 500px) {
 .right {
   position: absolute;
-  width: 100%;
+  width: auto;
 }
 }
 
