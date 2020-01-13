@@ -96,3 +96,8 @@ b {
   background-color: #000000;
 
 }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
