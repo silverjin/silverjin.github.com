@@ -2,18 +2,19 @@
 
 body {
   padding: 0px;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
   color: white;
   background: #000000;
   line-height: 1.2;
   font-weight: normal;
   overflow-x: hidden;
   z-index: -100;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
   font-size: 14pt;
   line-height: 1.2;
 }
 
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-11/ani1015.cur), auto !important;} /* End http://www.cursors-4u.com */
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -25,7 +26,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: red;
 }
 
 a {
@@ -36,28 +37,28 @@ a:link {
   font-size: 14pt;
   color: white;
   text-decoration: none;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
 }
 
 /* visited link */
 a:visited {
   color: white;
   text-decoration: none;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
 }
 
 /* mouse over link */
 a:hover {
   color: white;
   text-decoration: none;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
 }
 
 /* selected link */
 a:active {
   color: white;
   text-decoration: none;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
 }
 
 b {
@@ -68,8 +69,8 @@ b {
     -webkit-animation: rotate 7s linear infinite;
     animation: rotate 4s linear infinite;
     z-index: 100;
-    margin-left: 50%;
-    margin-top: 17%;
+    margin-left: 45%;
+    margin-top: 15%;
 
 }
 
@@ -80,9 +81,9 @@ b {
   height: 150%;
   position: fixed;
   float: left;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
-  font-family:"Helvetica Neue", Helvetica, sans-serif, "Helvetica Roman";;
+  font-family:'Gayathri', sans-serif;
 
 }
 
@@ -100,7 +101,7 @@ b {
 
 .right {
   padding: 38px;
-  margin-top:8px;
+  margin-top:0px;
   position: relative;
   display: inline-block;
   width: 55%;
@@ -114,4 +115,50 @@ b {
 .responsive {
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width : 500px) {
+  body {
+    padding: 0px;
+    font-family: 'Gayathri', sans-serif;
+    color: #ffffff;
+    font-size: 12pt;
+    line-height: 1.3;
+    font-weight: normal;
+    overflow-x: hidden;
+
+  }
+
+
+  a {
+    text-decoration: none; }
+
+  /* unvisited link */
+  a:link {
+    font-size: 12pt;
+    color: white;
+    text-decoration: none;
+    font-family:'Gayathri', sans-serif;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+    font-family:'Gayathri', sans-serif;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+    font-family:'Gayathri', sans-serif;
+  }
+
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+    font-family:'Gayathri', sans-serif;
+  }
 }
