@@ -15,12 +15,13 @@ body {
 }
 
 /* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-11/ani1015.cur), auto !important;} /* End http://www.cursors-4u.com */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0);
     border-radius: 10px;
 }
 
@@ -35,28 +36,28 @@ a {
 /* unvisited link */
 a:link {
   font-size: 14pt;
-  color: white;
+  color: black;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: red;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
 
 /* selected link */
 a:active {
-  color: white;
+  color: black;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
