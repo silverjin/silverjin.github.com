@@ -36,14 +36,14 @@ a {
 /* unvisited link */
 a:link {
   font-size: 14pt;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
@@ -57,7 +57,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: black;
+  color: white;
   text-decoration: none;
   font-family:'Gayathri', sans-serif;
 }
@@ -77,7 +77,7 @@ b {
 
 
 .left{
-  padding: 40px;
+  padding: 30px;
   width: 27%;
   height: 150%;
   position: fixed;
@@ -101,7 +101,7 @@ b {
 }
 
 .right {
-  padding: 38px;
+  padding: 30px;
   margin-top:0px;
   position: relative;
   display: inline-block;
