@@ -4,7 +4,8 @@ body {
   padding: 0px;
   font-family:'Gayathri', sans-serif;
   color: white;
-  background: #000000;
+  background: black;
+  background-attachment: fixed;
   line-height: 1.2;
   font-weight: normal;
   overflow-x: hidden;
@@ -14,20 +15,19 @@ body {
   line-height: 1.2;
 }
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/anime/ani-11/ani1015.cur), auto !important;} /* End http://www.cursors-4u.com */
 
 ::-webkit-scrollbar {
     width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: red;
+    -webkit-box-shadow: inset 0 0 5px white;
 }
 
 a {
@@ -67,19 +67,19 @@ b {
 }
 .rotate {
   position: absolute;
-    -webkit-animation: rotate 7s linear infinite;
+    -webkit-animation: rotate 8s linear infinite;
     animation: rotate 4s linear infinite;
     z-index: 100;
-    margin-left: 45%;
-    margin-top: 15%;
+    margin-left: 47%;
+    margin-top: 5%;
 
 }
 
 
 .left{
   padding: 30px;
-  width: 27%;
-  height: 150%;
+  width: 30%;
+  height: 100%;
   position: fixed;
   float: left;
   overflow-y: hidden;
@@ -101,11 +101,12 @@ b {
 }
 
 .right {
-  padding: 30px;
+  padding: 0px;
+  margin-right: 10px;
   margin-top:0px;
   position: relative;
   display: inline-block;
-  width: 55%;
+  width: 65%;
   float: right;
   vertical-align: top;
   line-height: 0.7;
@@ -113,10 +114,55 @@ b {
 
 }
 
+
+.grid-pane {
+  margin-top: 11px;
+  vertical-align: top;
+  display: block;
+  position:relative;
+  text-align: left;
+  border: 0px solid rgba(255, 255, 255, .4);
+  margin-bottom:30px;
+}
+
+.grid-item {
+  display: inline-block;
+  /* width: 420px; */
+  width: calc(49.5% - 40px);
+  height: auto;
+  padding: 0px;
+  margin: 20px 20px;
+  opacity: 1;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  text-align: center;
+  -moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+transition: all 0.4s;
+position: relative;
+}
+
+.grid-item:hover{
+opacity:0.5;
+-moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.grid-item h2 {
+margin-top: 0px;
+z-index: 100;
+}
+
+.textWithBlurredBg:hover :not(img){
+    opacity:1;
+  }
+
 .responsive {
   max-width: 100%;
   height: auto;
 }
+
 
 @media (max-width : 500px) {
   body {
@@ -127,6 +173,18 @@ b {
     line-height: 1.3;
     font-weight: normal;
     overflow-x: hidden;
+
+  }
+
+  .left{
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    float: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family:'Gayathri', sans-serif;
 
   }
 
