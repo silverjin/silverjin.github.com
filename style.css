@@ -189,7 +189,7 @@ border-radius: 50%/50%;
     padding: 0px;
     font-family: 'Gayathri', sans-serif;
     color: #ffffff;
-    font-size: 6pt;
+    font-size: 12pt;
     line-height: 1.2;
     font-weight: normal;
     overflow-x: hidden;
@@ -210,23 +210,37 @@ border-radius: 50%/50%;
     padding: 10px;
     width: 100%;
     height: 20%;
-    position: absolute;
+    position: relative;
     display: block;
     overflow-x: hidden;
     overflow-y: visible;
     font-family:'Gayathri', sans-serif;
-    font-size: 6pt;
+    font-size: 12pt;
     line-height: 1.2;
   }
 
   .right {
-    position: absolute;
+    padding: 0px;
+    position: relative;
     display: block;
     width: 100%;
-    height: 90%;
-    vertical-align: top;
     line-height: 0.7;
+  }
 
+  .grid-item {
+    display: inline-block;
+    /* width: 420px; */
+    width: calc(54% - 30px);
+    height: auto;
+    margin: 5px 5px;
+    opacity: 1;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    text-align: center;
+    -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
   }
 
 
@@ -263,44 +277,6 @@ border-radius: 50%/50%;
     font-family:'Gayathri', sans-serif;
   }
 
-
-
-.grid-pane {
-  display: block;
-  position: relative;
-  text-align: left;
-  border: 0px solid rgba(255, 255, 255, .4);
-  margin-bottom: 20px;
-}
-
-.grid-item {
-  display: inline-block;
-  /* width: 420px; */
-  width: calc(49.5% - 40px);
-  height: auto;
-  padding: 10px;
-  margin: 5px 5px;
-  opacity: 1;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
-  text-align: center;
-  -moz-transition: all 0.4s;
--webkit-transition: all 0.4s;
-transition: all 0.4s;
-position: relative;
-}
-
-.grid-item:hover{
-opacity:0.5;
--moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-.grid-item h2 {
-margin-top: 0px;
-z-index: 100;
-}
 }
 
 #cursor {
