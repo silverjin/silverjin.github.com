@@ -75,7 +75,7 @@ b {
 
 ::selection {
   color: red;
-  
+
 }
 
 .left{
@@ -123,7 +123,7 @@ b {
   line-height: 1.2;
   margin-top: 31px;
   margin-left: 20px;
-  margin-bottom:30px;
+  margin-bottom:50px;
 }
 
 .grid-pane {
