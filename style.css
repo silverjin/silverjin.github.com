@@ -277,6 +277,16 @@ border-radius: 50%/50%;
     font-family:'Gayathri', sans-serif;
   }
 
+
+  .right_text {
+    font-family:'Gayathri', sans-serif;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.2;
+    position: relative;
+    width: 98%;
+  }
+
 }
 
 #cursor {
