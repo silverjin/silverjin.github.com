@@ -239,7 +239,7 @@ border-radius: 50%/50%;
   .grid-item {
     display: inline-block;
     /* width: 420px; */
-    width: calc(45.9%);
+    width: 100%;
     height: auto;
     margin: 5px 5px;
     opacity: 1;
