@@ -80,7 +80,7 @@ b {
 
 .left{
   padding: 30px;
-  width: 30%;
+  width: 28%;
   height: 100%;
   position: fixed;
   float: left;
@@ -176,6 +176,7 @@ z-index: 100;
 
 #cursor {
 position: absolute;
+z-index: 100;
 }
 #body {
 height: 20px;
