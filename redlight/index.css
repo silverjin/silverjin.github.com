@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: 'Letter Gothic Std';
+  background-color: #000000;
+  color: white;
+}
+
+.title {
+  margin-bottom: 15px;
+  margin-left:37px;
+  margin-top:45px;
+}
+
+.grid-pane {
+  width: 1280px;
+  vertical-align: top;
+  border:0px solid green;
+  margin-left:35px;
+  margin-top: 20px;
+}
+
+.grid-item {
+  width: 320px;
+  height: 205px;
+  border: 0px solid white;
+}
+
+.grid-item--width2 {
+  width: 400px;
+}
+
+.book {
+  background-color: blue;
+}
+
+.web {
+  background-color: yellow;
+}
+
+.print {
+  background-color: green;
+}
+
+.installation {
+  background-color: orange;
+}
+
+/* STYLING FILTER BUTTONS */
+.button-group {
+  margin-bottom: 20px;
+  margin-left:31px;
+}
+.button-group button {
+  background-color: black;
+  font-family: 'Letter Gothic Std';
+  color: white;
+  font-size: 15px;
+  border: 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline:none;
+  margin-top: 40px;
+}
+
+.button-group button:hover {
+  color: red;
+}
+
+.popup {
+  position: fixed;
+  right: 0;
+  top: 0;
+  opacity: 0.8;
+  z-index: 100;
+  background: black;
+  width: 500px;
+  height: 375px;
+  margin-top: 40px;
+  margin-right: 80px;
+  border: 1px solid white;
+  padding: 13px 15px;
+
+}
+
+.popup-content {
+  display: none;
+}
