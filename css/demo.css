@@ -2,7 +2,14 @@
 @import url('//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
 @import url('//cdn.rawgit.com/necolas/normalize.css/master/normalize.css');
 @import url('//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap');
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -16,7 +23,32 @@ html {
 body{
 	font-family: Helvetica Neue;
 	color: black;
-background-color: #a0c1f4;
+background-image: url("https://i.imgur.com/jiCfmeF.png");
+background-repeat: repeat;
+overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
 }
 
 .photobooth {
@@ -26,7 +58,7 @@ background-color: #a0c1f4;
   text-align: center;
   width: 600px;
   left: 30%;
-	top: 60px;
+	top: 61px;
   transform: translate(-57%);
 	z-index: -20;
 }
@@ -88,8 +120,8 @@ margin-left: 1000px;
 
 .draggable3 {
   position: absolute;
-  margin-top: 15px;
-  margin-left: 910px;
+  margin-top: 10px;
+  margin-left: 900px;
 }
 
 .draggable4 {
@@ -112,7 +144,7 @@ margin-left: 1000px;
 }
 .draggable7 {
   position: absolute;
-  margin-top: 10px;
+  margin-top: -10px;
   margin-left: 1020px;
 }
 .draggable8 {
@@ -128,7 +160,7 @@ margin-left: 1000px;
 }
 .draggable10 {
 	position: absolute;
-  margin-top: 650px;
+  margin-top: 660px;
   margin-left: 820px;
 	z-index: -10;
 }
@@ -152,12 +184,12 @@ margin-left: 1000px;
 .draggable14 {
 	position: absolute;
   margin-top:725px;
-  margin-left: 85px;
+  margin-left: 60px;
 }
 .draggable15 {
 	position: absolute;
   margin-top:725px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .draggable16 {
 	position: absolute;
@@ -171,111 +203,111 @@ margin-left: 1000px;
 }
 .draggable18 {
 	position: absolute;
-  margin-top:907px;
+  margin-top:887px;
   margin-left: 25px;
 }
 .draggable19 {
 	position: absolute;
-  margin-top:907px;
+  margin-top:887px;
   margin-left: 195px;
 	z-index: 1;
 }
 .draggable20 {
 	position: absolute;
-  margin-top:800px;
+  margin-top:780px;
   margin-left: 640px;
 	z-index: 100;
 }
 .draggable21 {
 	position: absolute;
-  margin-top:620px;
+  margin-top:600px;
   margin-left: 980px;
 	z-index: 100;
 }
 .draggable22 {
 	position: absolute;
-  margin-top:1030px;
+  margin-top:1010px;
   margin-left: 375px;
 }
 .draggable23 {
 	position: absolute;
-  margin-top:1020px;
+  margin-top:1000px;
   margin-left: 505px;
 	z-index: 100;
 }
 .draggable24 {
 	position: absolute;
-  margin-top:850px;
+  margin-top:845px;
   margin-left: 770px;
 	z-index: -3;
 }
 .draggable25 {
 	position: absolute;
-  margin-top:260px;
+  margin-top:240px;
   margin-left: 1120px;
 }
 .draggable26 {
 	position: absolute;
-  margin-top:1250px;
+  margin-top:1220px;
   margin-left: 720px;
 	z-index: 100;
 }
 .draggable27 {
 	position: absolute;
-  margin-top:1150px;
+  margin-top:1130px;
   margin-left: 680px;
 }
 .draggable28 {
 	position: absolute;
-  margin-top:1150px;
+  margin-top:1130px;
   margin-left: 835px;
 }
 .draggable29 {
 	position: absolute;
-  margin-top:830px;
+  margin-top:810px;
   margin-left: 1050px;
 }
 .draggable30 {
 	position: absolute;
-  margin-top:1140px;
+  margin-top:1110px;
   margin-left: 1040px;
 }
 .draggable31 {
 	position: absolute;
-  margin-top:1107px;
+  margin-top:1087px;
   margin-left: 800px;
 }
 .draggable32 {
 	position: absolute;
-  margin-top:1200px;
+  margin-top:1180px;
   margin-left: 480px;
 	z-index: 100;
 }
 .draggable33 {
 	position: absolute;
-	margin-top:1100px;
-	margin-left: 80px;
+	margin-top:1080px;
+	margin-left: 64px;
 	z-index: 100;
 }
 .draggable34 {
 	position: absolute;
-  margin-top:1190px;
+  margin-top:1160px;
   margin-left: 240px;
 }
 .draggable35 {
 	position: absolute;
-  margin-top:1190px;
-  margin-left: 70px;
+  margin-top:1160px;
+  margin-left: 65px;
 }
 .draggable36 {
 	position: absolute;
-  margin-top:1000px;
-  margin-left:1130px;
+  margin-top:970px;
+  margin-left:1140px;
 }
 
 .draggable37 {
 	position: absolute;
-  margin-top:1145px;
+  margin-top:1115px;
   margin-left: 470px;
 }
 
@@ -291,15 +323,15 @@ margin-left: 1000px;
 	height: 110px;
 	background-color: white;
   position: absolute;
-	margin-top: 60px;
-	margin-left: 50%;
+	margin-top: 61px;
+	margin-left: 49.8%;
 
 }
 
 .buttons {
 	position: absolute;
 	margin-top:190px;
-	margin-left: 50%;
+	margin-left: 49.8%;
 }
 
 ul.share-buttons{
@@ -326,8 +358,8 @@ ul.share-buttons .sr-only{
   position: absolute;
   text-align: center;
   width: 1350px;
-  left: 30%;
-	top: 1440px;
+  left: 30.17%;
+	top: 1397px;
   transform: translate(-28.6%);
 	z-index: -20;
 }
@@ -335,32 +367,42 @@ ul.share-buttons .sr-only{
 .description{
   position: absolute;
   text-align: left;
-	font-style: helvetica;
-	font-size: 18pt;
-	font-weight: 500;
-  width: 590px;
-  left: 30%;
-	top: 2430px;
+font-family: Helvetica;
+	font-size: 15pt;
+  width: 600px;
+  left: 31%;
+	top: 2071px;
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
 	line-height: 1.2em;
 }
 
+
 .logo{
   position: absolute;
   right: 9.5%;
-	top: 2740px;
+	top: 2150px;
   transform: translate(25%);
-	z-index: -20;
+	z-index: 100;
 	color: black;
 }
 
 .school{
   position: absolute;
-  right: 14.5%;
-	top: 2420px;
+  right: 27%;
+	top: 2060px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
+}
+
+.school2{
+  position: absolute;
+  right: 27%;
+	top: 2335px;
+  transform: translate(25%);
+	z-index: -20;
+	color: black;
+	line-height: 0.3em;
 }
