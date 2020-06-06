@@ -122,7 +122,7 @@ margin-left: 1000px;
 
 .draggable3 {
   position: absolute;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 900px;
 }
 
@@ -146,7 +146,7 @@ margin-left: 1000px;
 }
 .draggable7 {
   position: absolute;
-  margin-top: -10px;
+  margin-top: -30px;
   margin-left: 1020px;
 }
 .draggable8 {
@@ -179,137 +179,137 @@ margin-left: 1000px;
 }
 .draggable13 {
 	position: absolute;
-  margin-top:740px;
+  margin-top:720px;
   margin-left: 225px;
 	z-index: 90;
 }
 .draggable14 {
 	position: absolute;
-  margin-top:725px;
+  margin-top:705px;
   margin-left: 60px;
 }
 .draggable15 {
 	position: absolute;
-  margin-top:725px;
+  margin-top:705px;
   margin-left: 0px;
 }
 .draggable16 {
 	position: absolute;
-  margin-top:750px;
+  margin-top:730px;
   margin-left: 405px;
 }
 .draggable17 {
 	position: absolute;
-  margin-top:680px;
+  margin-top:660px;
   margin-left: 605px;
 }
 .draggable18 {
 	position: absolute;
-  margin-top:887px;
+  margin-top:867px;
   margin-left: 25px;
 }
 .draggable19 {
 	position: absolute;
-  margin-top:887px;
+  margin-top:867px;
   margin-left: 195px;
 	z-index: 1;
 }
 .draggable20 {
 	position: absolute;
-  margin-top:780px;
+  margin-top:760px;
   margin-left: 640px;
 	z-index: 90;
 }
 .draggable21 {
 	position: absolute;
-  margin-top:600px;
+  margin-top:580px;
   margin-left: 980px;
 	z-index: 90;
 }
 .draggable22 {
 	position: absolute;
-  margin-top:1010px;
+  margin-top:990px;
   margin-left: 375px;
 }
 .draggable23 {
 	position: absolute;
-  margin-top:1000px;
+  margin-top:980px;
   margin-left: 505px;
 	z-index: 90;
 }
 .draggable24 {
 	position: absolute;
-  margin-top:845px;
+  margin-top:840px;
   margin-left: 770px;
 	z-index: -3;
 }
 .draggable25 {
 	position: absolute;
-  margin-top:240px;
+  margin-top:220px;
   margin-left: 1120px;
 }
 .draggable26 {
 	position: absolute;
-  margin-top:1220px;
+  margin-top:1200px;
   margin-left: 720px;
 	z-index: 90;
 }
 .draggable27 {
 	position: absolute;
-  margin-top:1130px;
+  margin-top:1110px;
   margin-left: 680px;
 }
 .draggable28 {
 	position: absolute;
-  margin-top:1130px;
+  margin-top:1110px;
   margin-left: 835px;
 }
 .draggable29 {
 	position: absolute;
-  margin-top:810px;
+  margin-top:790px;
   margin-left: 1050px;
 }
 .draggable30 {
 	position: absolute;
-  margin-top:1110px;
+  margin-top:1087px;
   margin-left: 1040px;
 }
 .draggable31 {
 	position: absolute;
-  margin-top:1087px;
+  margin-top:1067px;
   margin-left: 800px;
 }
 .draggable32 {
 	position: absolute;
-  margin-top:1180px;
+  margin-top:1160px;
   margin-left: 480px;
 	z-index: 90;
 }
 .draggable33 {
 	position: absolute;
-	margin-top:1080px;
+	margin-top:1060px;
 	margin-left: 64px;
 	z-index: 90;
 }
 .draggable34 {
 	position: absolute;
-  margin-top:1160px;
+  margin-top:1137px;
   margin-left: 240px;
 }
 .draggable35 {
 	position: absolute;
-  margin-top:1160px;
+  margin-top:1137px;
   margin-left: 65px;
 }
 .draggable36 {
 	position: absolute;
-  margin-top:970px;
+  margin-top:950px;
   margin-left:1140px;
 }
 
 .draggable37 {
 	position: absolute;
-  margin-top:1115px;
+  margin-top:1095px;
   margin-left: 470px;
 }
 
@@ -332,7 +332,7 @@ margin-left: 1000px;
 
 .buttons {
 	position: absolute;
-	margin-top:190px;
+	margin-top:170px;
 	margin-left: 49.8%;
 }
 
@@ -373,7 +373,7 @@ font-family: Pangolin;
 	font-size: 18pt;
   width: 600px;
   left: 31%;
-	top: 2721px;
+	top: 2715px;
   transform: translate(-60%);
 	z-index: -20;
 	color: black;
@@ -393,7 +393,7 @@ font-family: Pangolin;
 .school{
   position: absolute;
   right: 21%;
-	top: 2710px;
+	top: 2700px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -402,7 +402,7 @@ font-family: Pangolin;
 .school2{
   position: absolute;
   right: 21%;
-	top: 2996px;
+	top: 2987px;
   transform: translate(25%);
 	z-index: -20;
 	color: black;
@@ -412,7 +412,7 @@ font-family: Pangolin;
 .popup {
 	position: absolute;
 	left: 900px;
-	top: 50px;
+	top: 59px;
 		z-index: 100;
 }
 /* The Modal (background) */
@@ -473,8 +473,9 @@ font-family: Pangolin;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  font-size: 20px;
 	font-family: pangolin;
+	outline: none;
 }
 
 #clr {
@@ -485,7 +486,70 @@ font-family: Pangolin;
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 21px;
+  font-size: 20px;
 	font-family: pangolin;
+	outline: none;
 
+}
+
+
+
+.bubble4{
+	color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 1893px;
+transform: translate(25%);
+left: 7%;
+width: 270px;
+}
+
+.bubble2{
+  color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 2220px;
+transform: translate(25%);
+right: 18%;
+width: 270px;
+}
+
+.bubble3{
+  color: black;
+  font-size: 16pt;
+  position: absolute;
+margin-top: 1573px;
+transform: translate(25%);
+left: 40%;
+width: 270px;
+}
+
+.custom-file-input {
+  color: transparent;
+	outline: none;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+	outline: none;
+}
+.custom-file-input::before {
+  content: 'Select some files';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+	margin-top: -10px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 14pt;
+}
+
+a:focus {
+outline: none;
 }
