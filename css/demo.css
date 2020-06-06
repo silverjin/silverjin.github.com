@@ -548,6 +548,7 @@ width: 270px;
   text-shadow: 1px 1px #fff;
   font-weight: 700;
   font-size: 12pt;
+	font-family: pangolin;
 }
 
 a:focus {
