@@ -316,12 +316,6 @@ border-radius: 50%/50%;
 
 }
 
-.textblank {
-  font-family:'Gayathri', sans-serif;
-  color: white;
-  position: relative;
-  width: 800px;
-}
 #cursor {
 position: absolute;
 }
