@@ -102,6 +102,7 @@ b {
     }
 }
 
+
 .right {
   padding: 0px;
   margin-right: 10px;
@@ -115,6 +116,8 @@ b {
   z-index: -100;
 
 }
+
+
 
 .right_text {
   font-family:'Gayathri', sans-serif;
@@ -253,7 +256,21 @@ border-radius: 50%/50%;
   position: relative;
   }
 
-
+  .grid-item2 {
+    display: inline-block;
+    /* width: 420px; */
+    width: 100%;
+    height: auto;
+    margin-lfet: 20px;
+    opacity: 1;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    text-align: left;
+    -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  }
 
   a {
     text-decoration: none; }
@@ -299,6 +316,12 @@ border-radius: 50%/50%;
 
 }
 
+.textblank {
+  font-family:'Gayathri', sans-serif;
+  color: white;
+  position: relative;
+  width: 800px;
+}
 #cursor {
 position: absolute;
 }
