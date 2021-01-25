@@ -218,6 +218,7 @@ border-radius: 50%/50%;
     color: #df0000;
     font-size: 12pt;
     line-height: 1.2;
+    margin-left: -5px;
     font-weight: normal;
     overflow-x: hidden;
 
