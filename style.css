@@ -206,6 +206,11 @@ border-radius: 50%/50%;
   height: auto;
   max-height: 600px;
 }
+
+.responsive3 {
+  height: auto;
+  max-height: 700px;
+}
 .responsive2 {
   max-height: 600px;
 }
@@ -218,7 +223,7 @@ border-radius: 50%/50%;
     color: #df0000;
     font-size: 12pt;
     line-height: 1.2;
-    margin-left: -5px;
+    margin-left: 0px;
     font-weight: normal;
     overflow-x: hidden;
 
@@ -397,9 +402,7 @@ border-radius: 50%/50%;
   }
 
   .responsive2 {
-    max-height: 600px;
-    width: 100%;
-    height: auto;
+    height: 450px;
   }
 
 
