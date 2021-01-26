@@ -176,7 +176,7 @@ border-radius: 50%/50%;
 .x-scroller{
     overflow-x: scroll;
     overflow-y: hidden;
-    width: 67%;
+    width: 69%;
     height: 100%;
     display: inline-block;
       vertical-align: top;
@@ -188,7 +188,7 @@ border-radius: 50%/50%;
 }
 
 .scrolltext {
-  width: 30%;
+  width: 28%;
   padding-right: 30px;
   height: 100%;
   display: inline-block;
@@ -204,15 +204,11 @@ border-radius: 50%/50%;
 
 .responsive {
   height: auto;
-  max-height: 600px;
+  max-height: 550px;
 }
 
-.responsive3 {
-  height: auto;
-  max-height: 700px;
-}
 .responsive2 {
-  max-height: 600px;
+height: 100%;
 }
 
 
@@ -399,12 +395,12 @@ border-radius: 50%/50%;
   .responsive {
     width: 85%;
     height: auto;
+    max-height: 600px;
   }
 
   .responsive2 {
-    height: 450px;
+    height: 100%;
   }
-
 
 }
 
