@@ -238,6 +238,10 @@ border-radius: 50%/50%;
     display: none;  /* Safari and Chrome */
 }
 
+b {
+  color: #0400ac;
+}
+
 .scrolltext {
   width: 28%;
   padding-right: 30px;
