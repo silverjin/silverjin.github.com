@@ -12,11 +12,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 body {
   padding: 0px;
   padding-top: 8px;
-  font-family: helvetica;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: black;
     background: #f6f3e4;
@@ -84,10 +85,9 @@ img {vertical-align: middle;}
 }
 
 .title {
-font-family: 'Syncopate', sans-serif;
-  font-size: 24pt;
+font-family: 'Kotta One';
+  font-size: 16pt;
   color: #4C794F;
-margin-left: -1px;
 }
 
 .line {
@@ -113,6 +113,7 @@ margin-left: -1px;
 
 a {
   text-decoration: none;
+  font-family: 'Kotta One';
 }
 
 /* unvisited link */
@@ -120,7 +121,7 @@ a:link {
   font-size: 12pt;
   color: #4C794F;;
   text-decoration: none;
-  font-family: helvetica;
+font-family: 'Kotta One';
   opacity: 1;
   -webkit-transition: .1s ease-in-out;
   transition: .1s ease-in-out;
@@ -133,13 +134,13 @@ transition: all 0.1s;
 /* visited link */
 a:visited {
   color: #4C794F;;
-  font-family: helvetica;
+font-family: 'Kotta One';
 }
 
 /* mouse over link */
 a:hover {
   color:#4C794F;;
-  font-family: helvetica;
+font-family: 'Kotta One';
   opacity:1;
   -moz-transform: scale(1);
     -webkit-transform: scale(1);
@@ -149,11 +150,12 @@ a:hover {
 /* selected link */
 a:active {
   color: #4C794F;;
-  font-family: helvetica;
+font-family: 'Kotta One';
 }
 
 b {
   font-weight: 700;
+  font-size: 16pt;
 }
 
 iframe {
@@ -181,7 +183,7 @@ iframe {
   float: left;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: helvetica;
+  font-family: 'Raleway', sans-serif;
 font-size: 12pt;
 }
 
@@ -199,7 +201,7 @@ font-size: 12pt;
 
 
 .right_text {
-  font-family: helvetica;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 12pt;
   line-height: 1.2;
@@ -255,7 +257,8 @@ border-radius: 50%/50%;
 }
 
 b {
-  color: #4C794F;;
+  color: #4C794F;
+  font-family: 'Kotta One';
 }
 
 .scrolltext {
@@ -266,7 +269,7 @@ b {
   display: inline-block;
     vertical-align: top;
     float: left;
-    font-family: helvetica;
+    font-family: 'Raleway', sans-serif;
     color: black;
     font-size: 12pt;
     overflow: hidden;
@@ -333,15 +336,15 @@ b {
     display: block;
     overflow-x: hidden;
     overflow-y: visible;
-    font-family: helvetica;
+    font-family: 'Raleway', sans-serif;
     font-size: 12pt;
     line-height: 1.2;
   }
 
   .title {
-  font-family: 'Syncopate', sans-serif;
-    font-size: 18pt;
-    margin-left: -1px;
+    font-family: 'Kotta One';
+      font-size: 12pt;
+
     color: #4C794F;
   }
 
@@ -381,50 +384,9 @@ b {
 
 
 
-  a {
-    text-decoration: none; }
-
-  /* unvisited link */
-  a:link {
-    font-size: 12pt;
-    color: #4C794F;;
-    text-decoration: none;
-    font-family: helvetica;
-    opacity: 1;
-    -webkit-transition: .1s ease-in-out;
-    transition: .1s ease-in-out;
-    text-align: center;
-    -moz-transition: all 0.1s;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-  }
-
-  /* visited link */
-  a:visited {
-    color: #4C794F;;
-    font-family: helvetica;
-  }
-
-  /* mouse over link */
-  a:hover {
-    color:#4C794F;;
-    font-family: helvetica;
-    opacity:1;
-    -moz-transform: scale(1);
-      -webkit-transform: scale(1);
-      transform: scale(1);
-  }
-
-  /* selected link */
-  a:active {
-    color: #4C794F;;
-    font-family: helvetica;
-  }
-
-
 
   .right_text {
-    font-family: helvetica;
+    font-family: 'Raleway', sans-serif;
     color: #4C794F;;;
     font-size: 12pt;
     line-height: 1.2;
@@ -439,7 +401,7 @@ b {
     display: inline-block;
       vertical-align: top;
       float: left;
-      font-family: helvetica;
+      font-family: 'Raleway', sans-serif;
       color: black;
       font-size: 12pt;
       overflow: hidden;
