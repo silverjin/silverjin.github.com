@@ -87,6 +87,7 @@ img {vertical-align: middle;}
 font-family: 'Syncopate', sans-serif;
   font-size: 24pt;
   color: #4C794F;
+margin-left: -1px;
 }
 
 .line {
@@ -340,6 +341,7 @@ b {
   .title {
   font-family: 'Syncopate', sans-serif;
     font-size: 18pt;
+    margin-left: -1px;
     color: #4C794F;
   }
 
