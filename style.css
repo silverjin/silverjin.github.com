@@ -87,7 +87,6 @@ img {vertical-align: middle;}
 .title {
 font-family: 'Kotta One';
   font-size: 16pt;
-  color: #4C794F;
 }
 
 .line {
@@ -107,7 +106,7 @@ font-family: 'Kotta One';
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: transparent;
-    -webkit-box-shadow: inset 0 0 6px #4C794F;;;
+    -webkit-box-shadow: inset 0 0 6px #DF0101;;;
 }
 
 
@@ -119,7 +118,7 @@ a {
 /* unvisited link */
 a:link {
   font-size: 12pt;
-  color: #4C794F;;
+  color: #DF0101;;
   text-decoration: none;
 font-family: 'Kotta One';
   opacity: 1;
@@ -133,13 +132,13 @@ transition: all 0.1s;
 
 /* visited link */
 a:visited {
-  color: #4C794F;;
+  color: #DF0101;;
 font-family: 'Kotta One';
 }
 
 /* mouse over link */
 a:hover {
-  color:#4C794F;;
+  color:#DF0101;;
 font-family: 'Kotta One';
   opacity:1;
   -moz-transform: scale(1);
@@ -149,7 +148,7 @@ font-family: 'Kotta One';
 
 /* selected link */
 a:active {
-  color: #4C794F;;
+  color: #DF0101;;
 font-family: 'Kotta One';
 }
 
@@ -210,7 +209,7 @@ font-size: 12pt;
   margin-bottom:50px;
 }
 
-.textWithBlur#4C794F;;Bg:hover :not(img){
+.textWithBlur#DF0101;;Bg:hover :not(img){
     opacity:1;
   }
 
@@ -257,7 +256,7 @@ border-radius: 50%/50%;
 }
 
 b {
-  color: #4C794F;
+  color: #DF0101;
   font-family: 'Kotta One';
 }
 
@@ -311,7 +310,7 @@ b {
   ::-webkit-scrollbar-thumb {
       border-radius: 10px;
       background: transparent;
-      -webkit-box-shadow: inset 0 0 6px #4C794F;;;
+      -webkit-box-shadow: inset 0 0 6px #DF0101;;;
   }
 
 
@@ -345,7 +344,7 @@ b {
     font-family: 'Kotta One';
       font-size: 12pt;
 
-    color: #4C794F;
+    color: #DF0101;
   }
 
   .right {
@@ -387,7 +386,7 @@ b {
 
   .right_text {
     font-family: 'Raleway', sans-serif;
-    color: #4C794F;;;
+    color: #DF0101;;;
     font-size: 12pt;
     line-height: 1.2;
     position: relative;
