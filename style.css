@@ -337,6 +337,12 @@ b {
     line-height: 1.2;
   }
 
+  .title {
+  font-family: 'Syncopate', sans-serif;
+    font-size: 18pt;
+    color: #4C794F;
+  }
+
   .right {
     padding: 0px;
     position: relative;
