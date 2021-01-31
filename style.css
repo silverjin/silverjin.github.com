@@ -17,7 +17,7 @@
 body {
   padding: 0px;
   padding-top: 8px;
-  font-family: 'Raleway', sans-serif;
+  font-family: helvetica;
   font-weight: 400;
   color: black;
     background: white;
@@ -169,7 +169,7 @@ iframe {
   float: left;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
+  font-family: helvetica;
 font-size: 12pt;
 }
 
@@ -187,7 +187,7 @@ font-size: 12pt;
 
 
 .right_text {
-  font-family: 'Raleway', sans-serif;
+  font-family: helvetica;
   color: white;
   font-size: 12pt;
   line-height: 1.2;
@@ -255,7 +255,7 @@ b {
   display: inline-block;
     vertical-align: top;
     float: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: helvetica;
     color: black;
     font-size: 12pt;
     overflow: hidden;
@@ -307,7 +307,7 @@ b {
     display: block;
     overflow-x: hidden;
     overflow-y: visible;
-    font-family: 'Raleway', sans-serif;
+    font-family: helvetica;
     font-size: 12pt;
     line-height: 1.2;
   }
@@ -357,7 +357,7 @@ b {
 
 
   .right_text {
-    font-family: 'Raleway', sans-serif;
+    font-family: helvetica;
     color: #DF0101;;;
     font-size: 12pt;
     line-height: 1.2;
@@ -372,7 +372,7 @@ b {
     display: inline-block;
       vertical-align: top;
       float: left;
-      font-family: 'Raleway', sans-serif;
+      font-family: helvetica;
       color: black;
       font-size: 12pt;
       overflow: hidden;
