@@ -79,11 +79,14 @@ img {vertical-align: middle;}
 }
 
 .title {
-  font-family: 'Tangerine', cursive;
+  font-family: Tangerine;
   font-size: 30pt;
   color: #4C794F;
 }
 
+.line {
+  display: none;
+}
 /* On hover, add a grey background color */
 
 ::-webkit-scrollbar {
@@ -281,6 +284,10 @@ b {
     font-weight: normal;
     overflow-x: hidden;
 
+  }
+
+  .line {
+    display: block;
   }
 
   ::-webkit-scrollbar {
