@@ -1,26 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;400&family=Karla:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+
+@font-face {
+    font-family: 'orticalight';
+    src: url('http://eunjinahn.me/ortica-light-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/ortica-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'spratregular';
+    src: url('http://eunjinahn.me/sprat-regular-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/sprat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'spratregular_light';
+    src: url('http://eunjinahn.me/sprat-regularlight-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/sprat-regularlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 body {
   padding: 0px;
-  padding-top: 8px;
+  padding-top: 10px;
   font-family: helvetica;
   font-weight: 400;
   color: black;
-    background: white;
+    background: #FBFBEF;
   background-attachment: fixed;
   font-weight: normal;
   overflow-x: hidden;
@@ -38,25 +61,25 @@ img {vertical-align: middle;}
   max-width: 69%;
   display: inline-block;
     vertical-align: top;
-  white-space: nowrap;
+  black-space: nowrap;
   position: relative;
   margin: auto;
       margin-top: 5px;
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: white;
+    background: #FBFBEF;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #DF0101;
-    -webkit-box-shadow: inset 0 0 6px #DF0101;;
+    background: #000;
+    -webkit-box-shadow: inset 0 0 2px #FBFBEF;;
 }
 
 
@@ -68,9 +91,9 @@ img {vertical-align: middle;}
   width: auto;
   padding: 20px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 15px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -97,11 +120,11 @@ img {vertical-align: middle;}
 
 .slideshow-container:hover .overlay {
   opacity: 1;
-  color: white;
+  color: #fff;
 }
 
 .title {
-font-family: 'Kotta One';
+font-family: 'orticalight';
   font-size: 16pt;
 }
 
@@ -115,15 +138,14 @@ font-family: 'Kotta One';
 
 a {
   text-decoration: none;
-  font-family: 'Kotta One';
+
 }
 
 /* unvisited link */
 a:link {
   font-size: 12pt;
-  color: #DF0101;;
+  color: #000;
   text-decoration: none;
-font-family: 'Kotta One';
   opacity: 1;
   -webkit-transition: .1s ease-in-out;
   transition: .1s ease-in-out;
@@ -135,14 +157,12 @@ transition: all 0.1s;
 
 /* visited link */
 a:visited {
-  color: #DF0101;;
-font-family: 'Kotta One';
+  color: #000;
 }
 
 /* mouse over link */
 a:hover {
-  color:#DF0101;;
-font-family: 'Kotta One';
+  color:#000;
   opacity:1;
   -moz-transform: scale(1);
     -webkit-transform: scale(1);
@@ -151,13 +171,12 @@ font-family: 'Kotta One';
 
 /* selected link */
 a:active {
-  color: #DF0101;;
-font-family: 'Kotta One';
+  color: #000;
 }
 
 b {
   font-weight: 700;
-  font-size: 16pt;
+  font-size: 20pt;
 }
 
 iframe {
@@ -167,6 +186,7 @@ iframe {
   position: absolute;
     -webkit-animation: rotate 8s linear infinite;
     animation: rotate 4s linear infinite;
+    animation:
     z-index: 100;
     margin-left: 47%;
     margin-top: 5%;
@@ -189,8 +209,19 @@ iframe {
 font-size: 12pt;
 }
 
+.des {
+  margin-top: 3px;
+}
 
+.rotate {
+  position: absolute;
+    -webkit-animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
+    z-index: 100;
+    margin-left: 47%;
+    margin-top: 5%;
 
+}
 
 @keyframes rotate {
     from {
@@ -204,7 +235,7 @@ font-size: 12pt;
 
 .right_text {
   font-family: helvetica;
-  color: white;
+  color: black;
   font-size: 12pt;
   line-height: 1.2;
   margin-top: 31px;
@@ -212,7 +243,7 @@ font-size: 12pt;
   margin-bottom:50px;
 }
 
-.textWithBlur#DF0101;;Bg:hover :not(img){
+.textWithBlur#000;Bg:hover :not(img){
     opacity:1;
   }
 
@@ -251,7 +282,7 @@ border-radius: 50%/50%;
     margin-top: 5px;
     display: inline-block;
       vertical-align: top;
-    white-space: nowrap;
+    black-space: nowrap;
 }
 
 .x-scroller::-webkit-scrollbar {
@@ -259,15 +290,15 @@ border-radius: 50%/50%;
 }
 
 b {
-  color: #DF0101;
-  font-family: 'Kotta One';
+  color: #000;
+  font-family: 'orticalight';
 }
 
 .scrolltext {
   width: 28%;
   padding-right: 30px;
   height: 100%;
-  margin-top: 5px;
+  margin-top: 3px;
   display: inline-block;
     vertical-align: top;
     float: left;
@@ -329,10 +360,10 @@ b {
   }
 
   .title {
-    font-family: 'Kotta One';
+    font-family: 'orticalight';
       font-size: 12pt;
 
-    color: #DF0101;
+    color: #000;
   }
 
   .right {
@@ -374,7 +405,7 @@ b {
 
   .right_text {
     font-family: helvetica;
-    color: #DF0101;;;
+    color: #000;;
     font-size: 12pt;
     line-height: 1.2;
     position: relative;
@@ -401,7 +432,7 @@ b {
       width: 100%;
       height: 100%;
         vertical-align: top;
-      white-space: nowrap
+      black-space: nowrap
       display: block;
       position: relative;
   }
@@ -415,7 +446,7 @@ b {
     max-width: 100%;
     display: inline-block;
       vertical-align: top;
-    white-space: nowrap;
+    black-space: nowrap;
     position: relative;
     margin: auto;
     margin-top: 5px;
