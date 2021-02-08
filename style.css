@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Ramabhadra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 
 @font-face {
-    font-family: 'orticalight';
-    src: url('http://eunjinahn.me/ortica-light-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/ortica-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'spratregular';
+    font-family: 'ApfelGrotezk-Regular';
     src: url('http://eunjinahn.me/sprat-regular-webfont.woff2') format('woff2'),
          url('http://eunjinahn.me/sprat-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -29,13 +17,23 @@
 
 
 @font-face {
-    font-family: 'spratregular_light';
+    font-family: 'ApfelGrotezk-Regular_light';
     src: url('http://eunjinahn.me/sprat-regularlight-webfont.woff2') format('woff2'),
          url('http://eunjinahn.me/sprat-regularlight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'ApfelGrotezk-Regular';
+    src: url('http://eunjinahn.me/ApfelGrotezk-Regular.woff2') format('woff2'),
+         url('http://eunjinahn.me/ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 body {
@@ -124,7 +122,7 @@ img {vertical-align: middle;}
 }
 
 .title {
-font-family: 'orticalight';
+font-family: 'ApfelGrotezk-Regular';
   font-size: 16pt;
 }
 
@@ -179,6 +177,18 @@ b {
   font-size: 20pt;
 }
 
+#b2 {
+    font-weight: 700;
+    font-size: 12pt;
+    font-family: 'Roboto';
+}
+
+#b3 {
+    font-size: 12pt;
+    font-family: 'Roboto';
+    color: #555;
+}
+
 iframe {
   vertical-align: top;
 }
@@ -205,9 +215,9 @@ iframe {
   float: left;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: 'Gotu';
+  font-family: 'Roboto';
 font-size: 12pt;
-line-height: 1.4em;
+line-height: 1.3em;
 }
 
 .des {
@@ -235,7 +245,7 @@ line-height: 1.4em;
 
 
 .right_text {
-  font-family: 'Gotu';
+  font-family: 'Roboto';
   color: black;
   font-size: 12pt;
   line-height: 1.2;
@@ -278,6 +288,23 @@ border-radius: 50%/50%;
     overflow: hidden;
 }
 
+.middle2 {
+  padding: 0px;
+    margin-top: 6px;
+
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  z-index: -100;
+;
+    float: left;
+    overflow: hidden;
+    font-family: 'Roboto';
+    color: black;
+    font-size: 12pt;
+    line-height: 1.3em;
+}
+
 .x-scroller{
     width: 69%;
     margin-top: 5px;
@@ -292,7 +319,7 @@ border-radius: 50%/50%;
 
 b {
   color: #000;
-  font-family: 'orticalight';
+  font-family: 'ApfelGrotezk-Regular';
 }
 
 .scrolltext {
@@ -303,11 +330,11 @@ b {
   display: inline-block;
     vertical-align: top;
     float: left;
-    font-family: 'Gotu';
+    font-family: 'Roboto';
     color: black;
     font-size: 12pt;
     overflow: hidden;
-    line-height: 1.4em;
+    line-height: 1.3em;
 
 
 }
@@ -356,13 +383,13 @@ b {
     display: block;
     overflow-x: hidden;
     overflow-y: visible;
-    font-family: 'Gotu';
+    font-family: 'Roboto';
     font-size: 12pt;
     line-height: 1.2;
   }
 
   .title {
-    font-family: 'orticalight';
+    font-family: 'ApfelGrotezk-Regular';
       font-size: 12pt;
 
     color: #000;
@@ -406,7 +433,7 @@ b {
 
 
   .right_text {
-    font-family: 'Gotu';
+    font-family: 'Roboto';
     color: #000;;
     font-size: 12pt;
     line-height: 1.2;
@@ -421,7 +448,7 @@ b {
     display: inline-block;
       vertical-align: top;
       float: left;
-      font-family: 'Gotu';
+      font-family: 'Roboto';
       color: black;
       font-size: 12pt;
       overflow: hidden;
@@ -452,6 +479,23 @@ b {
     position: relative;
     margin: auto;
     margin-top: 5px;
+  }
+
+  .middle2 {
+    padding: 0px;
+      margin-top: 40px;
+
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    z-index: -100;
+  ;
+      float: left;
+      overflow: hidden;
+      font-family: 'Roboto';
+      color: black;
+      font-size: 12pt;
+      line-height: 1.3em;
   }
 
 }
