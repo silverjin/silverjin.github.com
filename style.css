@@ -38,7 +38,8 @@
 
 body {
   padding: 0px;
-  padding-top: 5px;
+  padding-top: 0px;
+  padding-left: 10px;
   font-weight: 400;
   color: black;
     background: #FBFBEF;
@@ -62,7 +63,7 @@ img {vertical-align: middle;}
   black-space: nowrap;
   position: relative;
   margin: auto;
-      margin-top: 5px;
+      margin-top: 15px;
 }
 
 ::-webkit-scrollbar {
@@ -291,7 +292,7 @@ border-radius: 50%/50%;
 
 .middle2 {
   padding: 0px;
-    margin-top: 6px;
+    margin-top: 12px;
 
   display: inline-block;
   width: 50%;
@@ -409,7 +410,7 @@ b {
     position: relative;
     text-align: left;
     float: left;
-    width: 95.5%;
+    width: 97%;
     margin-top: -40px;
     margin-left: -10px;
   }
