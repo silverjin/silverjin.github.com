@@ -175,6 +175,7 @@ a:active {
 b {
   font-weight: 700;
   font-size: 20pt;
+  line-height: 1.2em;
 }
 
 #b2 {
@@ -221,7 +222,7 @@ line-height: 1.3em;
 }
 
 .des {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .rotate {
