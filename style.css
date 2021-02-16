@@ -51,7 +51,7 @@ body {
   line-height: 1.2;
 }
 
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7 {
   display: none;}
 img {vertical-align: middle;}
 
@@ -209,7 +209,7 @@ iframe {
 
 .left{
   padding: 20px;
-  margin-top: -3px;
+  margin-top: 1px;
   width: 21%;
   height: 100%;
   position: fixed;
@@ -279,7 +279,7 @@ border-radius: 50%/50%;
 
 .middle {
   padding: 20px;
-    margin-top: -10px;
+    margin-top: -5px;
 
   display: inline-block;
   width: 75%;
@@ -288,11 +288,12 @@ border-radius: 50%/50%;
 ;
     float: right;
     overflow: hidden;
+      padding-bottom: 40px;
 }
 
 .middle2 {
   padding: 0px;
-    margin-top: 12px;
+    margin-top: 13px;
 
   display: inline-block;
   width: 50%;
@@ -377,7 +378,7 @@ b {
 
   .left{
     padding: 10px;
-    margin-top: -5px;
+    margin-top: -15px;
     margin-bottom: 10px;
     width: 95%;
     height: 20%;
