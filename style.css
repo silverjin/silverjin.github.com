@@ -64,7 +64,11 @@ img {vertical-align: middle;}
   position: relative;
   margin: auto;
       margin-top: 15px;
+      margin-bottom: 15px;
+
 }
+
+
 
 ::-webkit-scrollbar {
     width: 5px;
@@ -104,6 +108,14 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
+
+.video {
+  overflow:hidden;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
 
 .overlay {
   position: absolute;
@@ -246,6 +258,7 @@ line-height: 1.3em;
 }
 
 
+
 .right_text {
   font-family: 'Roboto';
   color: black;
@@ -338,8 +351,7 @@ b {
     font-size: 12pt;
     overflow: hidden;
     line-height: 1.3em;
-
-
+    position: relative;
 }
 
 .responsive {
@@ -347,7 +359,77 @@ b {
   width: auto;
 }
 
-@media (max-width : 500px) {
+@media (max-width : 1200px) {
+
+  .video {
+    overflow:hidden;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .left{
+    padding: 20px;
+    margin-top: 1px;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    font-weight: 400;
+    float: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+  font-size: 12pt;
+  line-height: 1.3em;
+  }
+
+  .middle {
+    padding: 20px;
+      margin-top: -5px;
+
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    z-index: -100;
+  ;
+      float: right;
+      overflow: hidden;
+        padding-bottom: 40px;
+  }
+
+  .slideshow-container {
+    max-width: 97%;
+    display: inline-block;
+      vertical-align: top;
+    black-space: nowrap;
+    position: relative;
+    margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+  }
+
+  .scrolltext {
+    width: 50%;
+    padding-right: 30px;
+    height: 100%;
+    margin-top: 7px;
+    display: inline-block;
+      vertical-align: top;
+      float: left;
+      font-family: 'Roboto';
+      color: black;
+      font-size: 12pt;
+      overflow: hidden;
+      line-height: 1.3em;
+      position: relative;
+  }
+
+
+}
+
+@media (max-width : 700px) {
   body {
     padding: 10px;
     font-family: 'Noto Serif', serif;
@@ -359,6 +441,24 @@ b {
     overflow-x: hidden;
 
   }
+
+  iframe {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video {
+    overflow:hidden;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
 
   .line {
     display: inline;
@@ -455,7 +555,6 @@ b {
       color: black;
       font-size: 12pt;
       overflow: hidden;
-
 
   }
 
