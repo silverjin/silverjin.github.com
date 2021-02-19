@@ -51,7 +51,7 @@ body {
   line-height: 1.2;
 }
 
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7 {
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8 {
   display: none;}
 img {vertical-align: middle;}
 
@@ -188,7 +188,7 @@ b {
 #b3 {
     font-size: 12pt;
     font-family: 'Roboto';
-    color: #555;
+    color: #000;
 }
 
 iframe {
@@ -296,7 +296,7 @@ border-radius: 50%/50%;
     margin-top: 13px;
 
   display: inline-block;
-  width: 50%;
+  width: 55%;
   vertical-align: top;
   z-index: -100;
 ;
