@@ -75,14 +75,14 @@ img {vertical-align: middle;}
 }
 
 ::-webkit-scrollbar-track {
-    background: #000;
+    background: #FBFBEF;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #FBFBEF;
-    -webkit-box-shadow: inset 0 0 2px #000;;
+    background: #000;
+    -webkit-box-shadow: inset 0 0 1px #FBFBEF;
 }
 
 
