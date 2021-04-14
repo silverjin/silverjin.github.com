@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture0.jpg
+map_Kd texture0.jpg
 
 newmtl material0001
 Ns 1.000002
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture1.jpg
+map_Kd texture1.jpg
 
 newmtl material0002
 Ns 1.000002
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture2.jpg
+map_Kd texture2.jpg
 
 newmtl material0003
 Ns 1.000002
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture3.jpg
+map_Kd texture3.jpg
 
 newmtl material0004
 Ns 1.000002
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture4.jpg
+map_Kd texture4.jpg
 
 newmtl material0005
 Ns 1.000002
@@ -65,7 +65,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture5.jpg
+map_Kd texture5.jpg
 
 newmtl material0006
 Ns 1.000002
@@ -76,4 +76,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd /Users/eunjin/Downloads/cyan/cyan_workspace/texture6.jpg
+map_Kd texture6.jpg
