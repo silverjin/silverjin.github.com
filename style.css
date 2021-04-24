@@ -221,7 +221,7 @@ iframe {
   position: fixed;
   overflow-y: hidden;
   overflow-x: hidden;
-background-image: linear-gradient(black 20%, transparent);
+background-image: linear-gradient(#000 20%, transparent);
   font-family: 'ApfelGrotezk-Regular';
 font-size: 14pt;
 line-height: 1.2em;
@@ -284,7 +284,9 @@ border-radius: 50%/50%;
 
 
 .middle {
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
   margin-bottom: -20px;
   margin-top: 5em;
   position: absolute;
@@ -335,7 +337,7 @@ border-radius: 50%/50%;
 }
 
 .masonry .brick:hover img {
-  opacity: .5;
+  opacity: .4;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -361,7 +363,10 @@ border-radius: 50%/50%;
 @media (max-width : 1200px) {
 
   .middle {
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: -40px;
     display: inline-block;
     width: 100%;
     vertical-align: top;
@@ -387,7 +392,7 @@ border-radius: 50%/50%;
   #titles {
     font-family:  'ApfelGrotezk-Regular';
     line-height: 1.2em;
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: bold;
     float: left;
   }
@@ -395,7 +400,7 @@ border-radius: 50%/50%;
   #titles2 {
     font-family:  'ApfelGrotezk-Regular';
     line-height: 1.2em;
-    font-size: 20pt;
+    font-size: 15pt;
     font-weight: bold;
     float: right;
   }
@@ -420,7 +425,6 @@ border-radius: 50%/50%;
     margin-top: 0px;
     width: 100%;
     height: 60%;
-    text-align: left;
     vertical-align: center;
     position: fixed;
     overflow-y: hidden;
