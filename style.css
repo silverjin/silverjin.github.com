@@ -61,8 +61,7 @@ background-attachment: fixed;
   font-weight: normal;
   overflow-x: hidden;
   z-index: -100;
-  font-size: 14pt;
-  line-height: 1.2;
+  line-height: 1.2em;
 }
 
 .whole {
@@ -179,7 +178,7 @@ a:active {
   line-height: 1.2em;
   font-size: 20pt;
   font-weight: bold;
-  float: right;
+  float: left;
 }
 
 #b2 {
@@ -191,7 +190,6 @@ a:active {
 #b3 {
     font-size: 14pt;
     font-family: 'ApfelGrotezk-Regular';
-    color: white;
 }
 
 iframe {
@@ -210,20 +208,16 @@ iframe {
 }
 
 
-
-.left {
-  padding-top: 40px;
-  padding-left: 80px;
-  padding-right: 80px;
-  width: 100%;
-  height: 20%;
-  text-align: center;
-  vertical-align: center;
+.left{
+  padding: 30px;
+  margin-top: -8px;
+  width: 21%;
+  height: 100%;
   position: fixed;
+  float: left;
   overflow-y: hidden;
   overflow-x: hidden;
-background-image: linear-gradient(#000 20%, transparent);
-  font-family: 'ApfelGrotezk-Regular';
+font-family: 'ApfelGrotezk-Regular';
 font-size: 14pt;
 line-height: 1.2em;
 }
@@ -231,6 +225,8 @@ line-height: 1.2em;
 .des {
   margin-top: 10px;
 }
+
+
 
 .rotate {
   position: absolute;
@@ -285,16 +281,31 @@ border-radius: 50%/50%;
 
 
 .middle {
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 40px;
-  margin-bottom: -20px;
-  margin-top: 5em;
-  position: absolute;
+  padding: 30px;
+    margin-top: 0px;
   display: inline-block;
-  text-decoration: center;
-  width: 100%;
+  width: 80%;
+  vertical-align: top;
   z-index: -100;
+;
+    float: right;
+    overflow: hidden;
+      padding-bottom: 40px;
+}
+
+.middle2 {
+  padding-left: 0px;
+  margin-top: -10px;
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  z-index: -100;
+font-family: 'ApfelGrotezk-Regular';
+  line-height: 1.2em;
+color: #fff;
+    float: left;
+    overflow: hidden;
+      padding-bottom: 40px;
 }
 
 .scrolltext {
@@ -338,7 +349,7 @@ border-radius: 50%/50%;
 }
 
 .masonry .brick:hover img {
-  opacity: .4;
+  opacity: .7;
   transform: scale(0.5.1);
   transform-origin: center;
 }
@@ -368,7 +379,7 @@ border-radius: 50%/50%;
   .middle {
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: -40px;
     display: inline-block;
     width: 100%;
@@ -405,7 +416,7 @@ border-radius: 50%/50%;
     line-height: 1.2em;
     font-size: 15pt;
     font-weight: bold;
-    float: right;
+    float: left;
   }
 
   .scrolltext {
@@ -424,18 +435,17 @@ border-radius: 50%/50%;
       position: relative;
   }
 
+
   .left {
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     width: 100%;
     height: 60%;
-    text-align: center;
-    vertical-align: center;
-    position: fixed;
-    overflow-y: hidden;
+    position: relative;
+    display: block;
     overflow-x: hidden;
-  background-image: linear-gradient(#000 20%, transparent);
+    overflow-y: visible;
     font-family: 'ApfelGrotezk-Regular';
   font-size: 14pt;
   line-height: 1.2em;
@@ -447,9 +457,10 @@ border-radius: 50%/50%;
 #cursor {
 position: absolute;
 }
+
 #body {
 height: 20px;
 width: 20px;
-border-radius: 50%/50%;
+border-radius: 50%/50%;호가
 
 }
