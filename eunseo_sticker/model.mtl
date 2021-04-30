@@ -1,7 +1,7 @@
 # Blender MTL File: 'None'
 # Material Count: 4
 
-newmtl material0000.001
+newmtl material0000
 Ns 1.000002
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -12,7 +12,7 @@ d 1.000000
 illum 1
 map_Kd texture0.jpg
 
-newmtl material0001.001
+newmtl material0001
 Ns 1.000002
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -23,7 +23,7 @@ d 1.000000
 illum 1
 map_Kd texture1.jpg
 
-newmtl material0002.001
+newmtl material0002
 Ns 1.000002
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
@@ -34,7 +34,7 @@ d 1.000000
 illum 1
 map_Kd texture2.jpg
 
-newmtl material0003.001
+newmtl material0003
 Ns 1.000002
 Ka 1.000000 1.000000 1.000000
 Kd 1.000000 1.000000 1.000000
