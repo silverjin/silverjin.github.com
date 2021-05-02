@@ -261,9 +261,8 @@ line-height: 1.2em;
   color: white;
   font-size: 14pt;
   line-height: 1.2;
-  margin-top: 31px;
-  margin-left: 20px;
-  margin-bottom:50px;
+  margin-bottom:40px;
+  width: 80%;
 }
 
 .textWithBlur#000;Bg:hover :not(img){
@@ -271,7 +270,7 @@ line-height: 1.2em;
   }
 
 .responsive {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -434,7 +433,7 @@ color: #fff;
     column-count: 3;
   }
 }
-@media (max-width : 1200px) {
+@media (max-width : 900px) {
 
   .middle {
     padding-left: 30px;
@@ -511,9 +510,24 @@ color: #fff;
   line-height: 1.2em;
   }
 
+  .right_text {
+    font-family: 'ApfelGrotezk-Regular';
+    color: white;
+    font-size: 14pt;
+    line-height: 1.2;
+    margin-bottom:40px;
+    width: 80%;
+  }
+
   .middle2 {
     width: 90%;
 }
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 
 #cursor {
 position: absolute;
