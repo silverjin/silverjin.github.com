@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Ramabhadra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+@font-face {
+    font-family: 'ApfelGrotezk-Regular';
+    src: url('http://eunjinahn.me/sprat-regular-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/sprat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ApfelGrotezk-Regular_light';
+    src: url('http://eunjinahn.me/sprat-regularlight-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/sprat-regularlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ApfelGrotezk-Regular';
+    src: url('http://eunjinahn.me/ApfelGrotezk-Regular.woff2') format('woff2'),
+         url('http://eunjinahn.me/ApfelGrotezk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'didotmedium_italic';
+    src: url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff') format('woff');
+    -webkit-font-smoothing: antialiased;
+    font-weight:100;
+}
+
+@font-face {
+    font-family: 'montigny_regularregular';
+    src: url('http://eunjinahn.me/montigny_web/montigny-regular-webfont.woff2') format('woff2'),
+         url('http://eunjinahn.me/montigny_web/montigny-regular-webfont.woff') format('woff');
+         -webkit-font-smoothing: antialiased;
+         font-weight:100;
+}
+
+body {
+  padding-top: 10px;
+  font-weight: 400;
+  color: white;
+  background: #000;
+background-attachment: fixed;
+  font-weight: normal;
+  overflow-x: hidden;
+  z-index: -100;
+  line-height: 1.2em;
+}
+
+::selection {
+  color: red;
+  background: trasparent;
+}
+
+::-webkit-scrollbar {
+       display: none;
+   }
+
+.whole {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 20px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.video {
+  overflow:hidden;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.slideshow-container:hover .overlay {
+  opacity: 1;
+  color: white;
+}
+
+.line {
+  display: none;
+}
+/* On hover, add a grey background color */
+
+
+
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+  text-align: center;
+  -moz-transition: all 0.1s;
+-webkit-transition: all 0.1s;
+transition: all 0.1s;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+  transition: all .5s ease-in-out;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
+#titles {
+  font-family:'ApfelGrotezk-Regular';
+  line-height: 1.2em;
+  font-size: 20pt;
+  font-weight: bold;
+  float: left;
+}
+
+#titles2 {
+  font-family: 'ApfelGrotezk-Regular';
+  line-height: 1.2em;
+  font-size: 20pt;
+  font-weight: bold;
+  float: left;
+}
+
+#b2 {
+    font-weight: 700;
+    font-size: 14pt;
+    font-family: 'ApfelGrotezk-Regular';
+}
+
+#b3 {
+    font-size: 14pt;
+    font-family: 'ApfelGrotezk-Regular';
+}
+
+iframe {
+  vertical-align: top;
+}
+
+
+.rotate {
+  position: absolute;
+    -webkit-animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
+    animation:
+    z-index: 100;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+
+.left{
+  padding: 30px;
+  margin-top: -8px;
+  width: 19%;
+  height: 100%;
+  position: fixed;
+  float: left;
+  overflow-y: hidden;
+  overflow-x: hidden;
+font-family: 'ApfelGrotezk-Regular';
+font-size: 14pt;
+line-height: 1.2em;
+}
+
+.des {
+  margin-top: 10px;
+}
+
+
+
+.rotate {
+  position: absolute;
+    -webkit-animation: rotate 8s linear infinite;
+    animation: rotate 4s linear infinite;
+    z-index: 100;
+    margin-left: 47%;
+    margin-top: 5%;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.right_text {
+  font-family: 'ApfelGrotezk-Regular';
+  color: white;
+  font-size: 14pt;
+  line-height: 1.2;
+  margin-bottom:40px;
+  width: 80%;
+}
+
+.textWithBlur#000;Bg:hover :not(img){
+    opacity:1;
+  }
+
+.responsive {
+  max-width: 80%;
+  height: auto;
+}
+
+#cursor {
+position: absolute;
+z-index: 100;
+}
+#body {
+height: 0px;
+width: 0px;
+border-radius: 50%/50%;
+
+}
+
+
+.middle {
+  padding: 35px;
+    margin-top: -3px;
+  display: inline-block;
+  width: 83%;
+  vertical-align: top;
+  z-index: -100;
+;
+    float: right;
+    overflow: hidden;
+      padding-bottom: 40px;
+}
+
+[class*='parrot'] {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  z-index: 100;
+}
+
+.parrot-1 {
+  background-image: url('https://i.imgur.com/UlicU2k.png');
+}
+
+.parrot-2 {
+  background-image: url('https://i.imgur.com/f4XCQiA.png');
+}
+
+.parrot-3 {
+  background-image: url('https://i.imgur.com/UlicU2k.png');
+}
+
+.parrot-4 {
+  background-image: url('https://i.imgur.com/f4XCQiA.png');
+}
+
+.parrot-5 {
+  background-image: url('https://i.imgur.com/UlicU2k.png');
+}
+
+.parrot-6 {
+  background-image: url('https://i.imgur.com/f4XCQiA.png');
+}
+
+.parrot-7 {
+  background-image: url('https://i.imgur.com/UlicU2k.png');
+}
+
+.parrot-8 {
+  background-image: url('https://i.imgur.com/f4XCQiA.png');
+}
+
+.parrot-9 {
+  background-image: url('https://i.imgur.com/UlicU2k.png');
+}
+
+.parrot-10 {
+  background-image: url('https://i.imgur.com/f4XCQiA.png');
+}
+
+
+.responsive2 {
+  max-width: 36%;
+  height: auto;
+}
+
+.responsive3 {
+  max-width: 40%;
+  height: auto;
+}
+
+.middle2 {
+  padding-left: 0px;
+  margin-top: -11px;
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  z-index: -100;
+font-family: 'ApfelGrotezk-Regular';
+  line-height: 1.2em;
+color: #fff;
+    float: left;
+    overflow: hidden;
+      padding-bottom: 40px;
+}
+
+.scrolltext {
+  width: 30%;
+  padding-right: 30px;
+  height: 100%;
+  margin-top: 7px;
+  display: inline-block;
+    vertical-align: top;
+    float: left;
+    font-family: 'ApfelGrotezk-Regular';
+    color: white;
+    font-size: 14pt;
+    overflow: hidden;
+    line-height: 1.3em;
+    position: relative;
+}
+
+.responsive {
+  height: auto;
+  width: auto;
+}
+
+.masonry {
+  transition: all .5s ease-in-out;
+  column-gap: 40px;
+  column-fill: initial;
+}
+
+/* Masonry item */
+.masonry .brick {
+  margin-bottom: 40px;
+  display: inline-block; /* Fix the misalignment of items */
+  vertical-align: top; /* Keep the item on the very top */
+}
+
+/* Masonry image effects */
+.masonry .brick img {
+  transition: all .5s ease-in-out;
+  backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+.masonry .brick:hover img {
+  filter:blur(5px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+/* Masonry on big screens */
+@media only screen and (min-width: 1024px) {
+  .desc {
+    font-size: 1.25em;
+  }
+
+  .intro {
+    letter-spacing: 1px;
+  }
+
+  .masonry {
+    column-count: 3;
+  }
+}
+@media (max-width : 900px) {
+
+  .middle {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: -40px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    z-index: -100;
+  ;
+      float: right;
+      overflow: hidden;
+        padding-bottom: 40px;
+  }
+
+  .slideshow-container {
+    max-width: 97%;
+    display: inline-block;
+      vertical-align: top;
+    white-space: nowrap;
+    position: relative;
+    margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+  }
+
+  #titles {
+    font-family:  'ApfelGrotezk-Regular';
+    line-height: 1.2em;
+    font-size: 18pt;
+    font-weight: bold;
+    float: left;
+  }
+
+  #titles2 {
+    font-family:  'ApfelGrotezk-Regular';
+    line-height: 1.2em;
+    font-size: 18pt;
+    font-weight: bold;
+    float: left;
+  }
+
+  .scrolltext {
+    width: 50%;
+    padding-right: 30px;
+    height: 100%;
+    margin-top: 7px;
+    display: inline-block;
+      vertical-align: top;
+      float: left;
+      font-family: 'ApfelGrotezk-Regular';
+      color: white;
+      font-size: 14pt;
+      overflow: hidden;
+      line-height: 1.3em;
+      position: relative;
+  }
+
+
+  .left {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: visible;
+    font-family: 'ApfelGrotezk-Regular';
+  font-size: 14pt;
+  line-height: 1.2em;
+  }
+
+  .right_text {
+    font-family: 'ApfelGrotezk-Regular';
+    color: white;
+    font-size: 14pt;
+    line-height: 1.2;
+    margin-bottom:40px;
+    width: 80%;
+    margin-top: 0px;
+  }
+
+  .middle2 {
+    width: 90%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive2 {
+  max-width: 45%;
+  height: auto;
+}
+
+.responsive3 {
+  max-width: 50%;
+  height: auto;
+}
+
+#cursor {
+position: absolute;
+}
+
+#body {
+height: 20px;
+width: 20px;
+border-radius: 50%/50%;호가
+
+}
