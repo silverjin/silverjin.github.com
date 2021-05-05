@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'ApfelGrotezk-Regular';
-    src: url('http://eunjinahn.me/sprat-regular-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/sprat-regular-webfont.woff') format('woff');
+    src: url('http://eunjinishere.xyz/sprat-regular-webfont.woff2') format('woff2'),
+         url('http://eunjinishere.xyz/sprat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -20,8 +20,8 @@
 
 @font-face {
     font-family: 'ApfelGrotezk-Regular_light';
-    src: url('http://eunjinahn.me/sprat-regularlight-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/sprat-regularlight-webfont.woff') format('woff');
+    src: url('http://eunjinishere.xyz/sprat-regularlight-webfont.woff2') format('woff2'),
+         url('http://eunjinishere.xyz/sprat-regularlight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'ApfelGrotezk-Regular';
-    src: url('http://eunjinahn.me/ApfelGrotezk-Regular.woff2') format('woff2'),
-         url('http://eunjinahn.me/ApfelGrotezk-Regular.woff') format('woff');
+    src: url('http://eunjinishere.xyz/ApfelGrotezk-Regular.woff2') format('woff2'),
+         url('http://eunjinishere.xyz/ApfelGrotezk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -39,16 +39,16 @@
 
 @font-face {
     font-family: 'didotmedium_italic';
-    src: url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff') format('woff');
+    src: url('http://eunjinishere.xyz/didot_light/didot-htf-l06-light-ital-webfont.woff2') format('woff2'),
+         url('http://eunjinishere.xyz/didot_light/didot-htf-l06-light-ital-webfont.woff') format('woff');
     -webkit-font-smoothing: antialiased;
     font-weight:100;
 }
 
 @font-face {
     font-family: 'montigny_regularregular';
-    src: url('http://eunjinahn.me/montigny_web/montigny-regular-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/montigny_web/montigny-regular-webfont.woff') format('woff');
+    src: url('http://eunjinishere.xyz/montigny_web/montigny-regular-webfont.woff2') format('woff2'),
+         url('http://eunjinishere.xyz/montigny_web/montigny-regular-webfont.woff') format('woff');
          -webkit-font-smoothing: antialiased;
          font-weight:100;
 }
