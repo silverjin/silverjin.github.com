@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body {
+  font-family:'Inconsolata', monospace;
+    background-color: #fff;
+  }
+
+  .navigation {
+  padding-left: 20px;
+  padding-top: 20px;
+  z-index: 100;
+  position: fixed;
+  float: left;
+}
+
+#cylinderText2 {
+  font-size: 10pt;
+  font-family:'Inconsolata', monospace;
+}
+
+a-entity {
+  font-family:'Inconsolata', monospace;
+}
+
+#myVideo {
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.textwriter {
+  position: block;
+  top: 7%;
+padding-left: 4%;
+}
+
+.next {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  right: 5%;
+  float: right;
+  bottom: 7%;
+}
+
+.title {
+    text-align: left;
+    font-size: 48pt;
+    display: block;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.next {
+  position: fixed;
+  z-index: 1000;
+  font-size: 60px;
+  font-weight: bold;
+  right: 3%;
+  float: right;
+  bottom: 4%;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+  text-align: center;
+  -moz-transition: all 0.1s;
+-webkit-transition: all 0.1s;
+transition: all 0.1s;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
+  line-height: 1.4em;
+  font-weight: bold;
+  width: 50%;
+}
+/* Animation */
+/*p {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+p: nth-child(2)
+{
+    white-space:nowrap;
+    overflow:hidden;
+   animation: animated-text2 4s steps(29,end) 1s 1 normal both;
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+/* text animation */
+
+/*@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+@keyframes animated-text2{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+/*@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
