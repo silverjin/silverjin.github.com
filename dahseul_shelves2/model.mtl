@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd texture0.jpg
+map_Kd /Users/eunjin/Downloads/3d스캔/dahseul/dahseul_shelves/texture0.jpg
 
 newmtl material0001
 Ns 1.000002
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd texture1.jpg
+map_Kd /Users/eunjin/Downloads/3d스캔/dahseul/dahseul_shelves/texture1.jpg
 
 newmtl material0002
 Ns 1.000002
@@ -32,4 +32,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd texture2.jpg
+map_Kd /Users/eunjin/Downloads/3d스캔/dahseul/dahseul_shelves/texture2.jpg
