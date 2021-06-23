@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>A Room of Our Own</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <link rel="stylesheet" href="style_eunjin.css">
+    <script>
+      AFRAME.registerComponent("change-color-on-hover", {
+        schema: {
+          color: {
+            default: "red",
+          },
+        },
+
+        init: function () {
+          var data = this.data;
+
+          var overlay1 = document.getElementById("overlay-1");
+          var overlay2 = document.getElementById("overlay-2");
+          var overlay3 = document.getElementById("overlay-3");
+          var overlay4 = document.getElementById("overlay-4");
+          var overlay5 = document.getElementById("overlay-5");
+          var overlay6 = document.getElementById("overlay-6");
+          var overlay7 = document.getElementById("overlay-7");
+          var overlay8 = document.getElementById("overlay-8");
+          var overlay9 = document.getElementById("overlay-9");
+          var overlay10 = document.getElementById("overlay-10");
+          var overlay11 = document.getElementById("overlay-11");
+          // Object  1
+          var objext1 = document.getElementById("object1");
+          objext1.addEventListener("mouseenter", function () {
+            showOverlay1();
+          });
+          objext1.addEventListener("mouseleave", function () {
+            hideOverlay1();
+          });
+          function showOverlay1() {
+            overlay1.style.display = "block";
+          }
+          function hideOverlay1() {
+            overlay1.style.display = "none";
+          }
+
+          // Object  2
+          var objext2 = document.getElementById("object2");
+          objext2.addEventListener("mouseenter", function () {
+            showOverlay2();
+          });
+          objext2.addEventListener("mouseleave", function () {
+            hideOverlay2();
+          });
+          function showOverlay2() {
+            overlay2.style.display = "block";
+          }
+          function hideOverlay2() {
+            overlay2.style.display = "none";
+          }
+
+          // Object  3
+          var objext3 = document.getElementById("object3");
+          objext3.addEventListener("mouseenter", function () {
+            showOverlay3();
+          });
+          objext3.addEventListener("mouseleave", function () {
+            hideOverlay3();
+          });
+          function showOverlay3() {
+            overlay3.style.display = "block";
+          }
+          function hideOverlay3() {
+            overlay3.style.display = "none";
+          }
+
+          // Object  4
+          var objext4 = document.getElementById("object4");
+          objext4.addEventListener("mouseenter", function () {
+            showOverlay4();
+          });
+          objext4.addEventListener("mouseleave", function () {
+            hideOverlay4();
+          });
+          function showOverlay4() {
+            overlay4.style.display = "block";
+          }
+          function hideOverlay4() {
+            overlay4.style.display = "none";
+          }
+
+          // Object  5
+          var objext5 = document.getElementById("object5");
+          objext5.addEventListener("mouseenter", function () {
+            showOverlay5();
+          });
+          objext5.addEventListener("mouseleave", function () {
+            hideOverlay5();
+          });
+          function showOverlay5() {
+            overlay5.style.display = "block";
+          }
+          function hideOverlay5() {
+            overlay5.style.display = "none";
+          }
+
+          // Object  6
+          var objext6 = document.getElementById("object6");
+          objext6.addEventListener("mouseenter", function () {
+            showOverlay6();
+          });
+          objext6.addEventListener("mouseleave", function () {
+            hideOverlay6();
+          });
+          function showOverlay6() {
+            overlay6.style.display = "block";
+          }
+          function hideOverlay6() {
+            overlay6.style.display = "none";
+          }
+
+          // Object  7
+          var objext7 = document.getElementById("object7");
+          objext7.addEventListener("mouseenter", function () {
+            showOverlay7();
+          });
+          objext7.addEventListener("mouseleave", function () {
+            hideOverlay7();
+          });
+          function showOverlay7() {
+            overlay7.style.display = "block";
+          }
+          function hideOverlay7() {
+            overlay7.style.display = "none";
+          }
+
+          // Object  8
+          var objext8 = document.getElementById("object8");
+          objext8.addEventListener("mouseenter", function () {
+            showOverlay8();
+          });
+          objext8.addEventListener("mouseleave", function () {
+            hideOverlay8();
+          });
+          function showOverlay8() {
+            overlay8.style.display = "block";
+          }
+          function hideOverlay8() {
+            overlay8.style.display = "none";
+          }
+
+          // Object  9
+          var objext9 = document.getElementById("object9");
+          objext9.addEventListener("mouseenter", function () {
+            showOverlay9();
+          });
+          objext9.addEventListener("mouseleave", function () {
+            hideOverlay9();
+          });
+          function showOverlay9() {
+            overlay9.style.display = "block";
+          }
+          function hideOverlay9() {
+            overlay9.style.display = "none";
+          }
+
+          // Object  10
+          var objext10 = document.getElementById("object10");
+          objext10.addEventListener("mouseenter", function () {
+            showOverlay10();
+          });
+          objext10.addEventListener("mouseleave", function () {
+            hideOverlay10();
+          });
+          function showOverlay10() {
+            overlay10.style.display = "block";
+          }
+          function hideOverlay10() {
+            overlay10.style.display = "none";
+          }
+
+          // Object  11
+          var objext11 = document.getElementById("object11");
+          objext11.addEventListener("mouseenter", function () {
+            showOverlay11();
+          });
+          objext11.addEventListener("mouseleave", function () {
+            hideOverlay11();
+          });
+          function showOverlay11() {
+            overlay11.style.display = "block";
+          }
+          function hideOverlay11() {
+            overlay11.style.display = "none";
+          }
+
+
+
+
+        },
+      });
+    </script>
+  </head>
+  <body>
+    <div class="navigation">
+      <!-- Trigger/Open The Modal -->
+<img src="https://i.imgur.com/vwxTVeA.png" alt="Workplace" usemap="#workmap" width="300px">
+      </div>
+
+      <map name="workmap">
+  <area shape="rect" coords="38,170,51,183" alt="eunseo" href="https://aroomofourown.xyz/eunseo.html">
+  <area shape="rect" coords="82.5,70,95,83" alt="hyewon" href="https://aroomofourown.xyz/hyewon.html">
+  <area shape="rect" coords="156,129,168,140" alt="dahseul" href="https://aroomofourown.xyz/dahseul.html">
+  <area shape="rect" coords="195,57,207,69" alt="cyan" href="https://aroomofourown.xyz/chaeyeon.html">
+  <area shape="rect" coords="267,170.5,278.5,183" alt="eunjin" href="https://aroomofourown.xyz/eunjin.html">
+</map>
+
+    <a-scene background="color: #DF7401">
+      <a-obj-model scale="7 7 7" rotation="0 -100 0" position="30 -9 -30" src="https://eunjinishere.xyz/eunjin_monstera/model.obj" mtl="https://eunjinishere.xyz/eunjin_monstera/model.mtl"></a-obj-model>
+ <a-obj-model scale="5 5 5" rotation="0 -50 0" position="-10 -9 -15" src="https://eunjinishere.xyz/eunjin_desk/model.obj" mtl="https://eunjinishere.xyz/eunjin_desk/model.mtl"></a-obj-model>
+ <a-obj-model scale="5 5 5" rotation="0 150 0" position="35 -9 15" src="https://eunjinishere.xyz/eunjin_plants/model.obj" mtl="https://eunjinishere.xyz/eunjin_plants/model.mtl"></a-obj-model>
+ <a-obj-model scale="6 6 6" rotation="0 50 0" position="-15 -4 60" src="https://eunjinishere.xyz/eunjin_clothes_rack/model.obj" mtl="https://eunjinishere.xyz/eunjin_clothes_rack/model.mtl"></a-obj-model>
+ <a-obj-model scale="4 4 4" rotation="0 159 0" position="20 -9 50" src="https://eunjinishere.xyz/bed/model.obj" mtl="https://eunjinishere.xyz/bed/model.mtl"></a-obj-model>
+ <a-obj-model scale="2.2 2.2 2.2" rotation="0 -20 0" position="6 -14 4" src="https://aroomofourown.xyz/eunjin_hyewon/model.obj" mtl="https://aroomofourown.xyz/eunjin_hyewon/model.mtl"></a-obj-model>
+
+
+  <a-entity
+      position="8.5 -7 -29"
+      height="1"
+    event-set__enter="_event: mouseenter; _target: #eunseoVideo; visible: true"
+    event-set__leave="_event: mouseleave; _target: #eunseoVideo; visible: false"
+  >
+    <a-video
+      id="eunseoVideo"
+      autoplay
+      loop="true"
+      src="https://aroomofourown.xyz/eunjin_cake.mp4"
+      align="center"
+      scale="1.4 1 1"
+      visible="true"
+      position="-8.3 8 30"
+      rotation="0 -13 0"
+
+    ></a-box>
+
+ <a-sound
+ src="https://aroomofourown.xyz/interview_eunjin.mp3"
+ autoplay="true"
+ visible="false"
+ loop="true"
+ position="1 2 -10">
+ </a-sound>
+
+  </a-entity>
+
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="30 4 -30"
+   scale="10 10 10"
+   change-color-on-hover="color: blue"
+   id="object1"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="-30 -4 -15"
+   scale="15 15 15"
+   change-color-on-hover="color: blue"
+   id="object2"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="-33 13 -14"
+   scale="10 4 10"
+   change-color-on-hover="color: blue"
+   id="object3"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="-15 -4 37"
+   scale="10 10 10"
+   change-color-on-hover="color: blue"
+   id="object4"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="30 4 3"
+   scale="9.5 9.5 9.5"
+   change-color-on-hover="color: blue"
+   id="object5"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="20 -7 50"
+   scale="10.5 10.5 10.5"
+   change-color-on-hover="color: blue"
+   id="object6"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="60 33 -30"
+   scale="12.5 12.5 12.5"
+   change-color-on-hover="color: blue"
+   id="object7"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="-28 4 -40"
+   scale="3.5 5 3.5"
+   change-color-on-hover="color: blue"
+   id="object8"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="6 -10 4"
+   scale="3.5 5 3.5"
+   change-color-on-hover="color: blue"
+   id="object9"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="-30 -13 13"
+   scale="10 10 25"
+   change-color-on-hover="color: blue"
+   id="object10"
+ ></a-box>
+
+ <a-box
+   color="trasparent"
+   opacity= "0"
+   position="0 7 60"
+   scale="20 40 20"
+   change-color-on-hover="color: blue"
+   id="object11"
+ ></a-box>
+
+ <a-camera>
+   <a-cursor></a-cursor>
+ </a-camera>
+
+ </a-scene>
+
+ <div
+   id="overlay-1"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+
+ <font style="color: #d16c00"
+   >
+One of my wishes was have my own room and raise a giant Monstera there. And my dreams come true!
+</font>
+ </div>
+
+
+ <div
+   id="overlay-2"
+   style="
+   display: none;
+   width: 25%;
+   position: fixed;
+   top: 3.5%;
+   right: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background: rgba(255, 255, 255, 0.84);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #000"
+   >
+ <b>Do you feel that your life as a queer has changed since you came to the Netherlands? What is the difference between life as a queer in Korea?</font>
+ </b><br><br>
+ <font style="color: #d16c00"
+   >
+In here it's easier to come out, and I can do projects related to queer/queer culture which I can't do in Korea. I can't make graduation work like this in Korea. It's a very superstitious metaphor, which is very Korean, but doing this project is almost like doing a kind of exorcism to me. Like <a href="https://en.wikipedia.org/wiki/Gut_(ritual)"><i>Gut</i></a>... It is an act of solving the <a href="https://en.wikipedia.org/wiki/Han_(cultural)"><i>Han</i></a> I had so it's a very meaningful thing for me. And sadly it's not a thing I can do in my own country. These are certainly good points.<br><br>
+<img src="https://i.imgur.com/V60tdif.jpg" width="100%"><br>
+<font style="color: #666"
+  ><i>The gut or kut are the rites performed by Korean shamans, involving offerings and sacrifices to gods and ancestors. They are characterised by rhythmic movements, songs, oracles and prayers.</i></font>
+<br><br>
+What I don't like in here is that I can't be incorporated into the Queer Community in here. It is hard to feel the sense of belonging or stability I felt in the queer community in Korea. It's a bit tough for a foreign Asian queer woman... I don't think I've seen a lot of Queer PoC communities. In fact, when I tried to visit lgbtq + places here, I felt a sense of rejection when I saw only white people in the reviews.
+</font>
+ </div>
+
+
+ <div
+   id="overlay-3"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+
+ <font style="color: #d16c00"
+   >
+These are letters, postcards, greeting cards and posters from my friends. Like in Hollywood movies I saw when I was a child, I wanted to decorate my wall like this when I had my room.
+</font>
+ </div>
+
+ <div
+   id="overlay-4"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+
+ <font style="color: #d16c00"
+   >
+   I did not buy a closet because I did not know how much I would be in the Netherlands after graduation. So I use my suitcase as a closet. It looks like I'm ready to leave at any time.</font>
+ </div>
+
+ <div
+   id="overlay-5"
+   style="
+   display: none;
+   width: 25%;
+   position: fixed;
+   top: 3.5%;
+   right: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background: rgba(255, 255, 255, 0.84);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #000"
+   >
+ <b>Have you ever felt like you were not being welcomed as a 'foreigner' or 'other'?</font>
+ </b><br><br>
+ <font style="color: #d16c00"
+   >
+   I went to a little queer movie screening once. I was curious about the queer community here and I was expecting to watch movies with people like me in a comfortable atmosphere, but I also had an alienation experience there. They didn't say anything aggressive to me, but the atmosphere and the way everyone looks at me was… Also, there were people who talked to me after the screening, but all of them were questions with curiosity. I felt so lonely on my way home. This one was the most strong memory in my mind, but there were a lot of similar things in school. I just can’t remember…
+</font>
+<br><br><font style="color: #000"
+  >
+   Yes, of course. It’s hard to remember because there are so many similar memories. Everyone does.
+</font>
+<br><br>
+<font style="color: #d16c00"
+  >
+   That’s true. And people are unconsciously trying to forget bad memories. I like that.
+</font>
+ </div>
+
+ <div
+   id="overlay-6"
+   style="
+   display: none;
+   width: 25%;
+   position: fixed;
+   top: 3.5%;
+   right: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background: rgba(255, 255, 255, 0.84);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #000"
+   >
+ <b>What does the 'room' mean to you? Does the room in Korea and the room in here mean different to you?</font>
+ </b><br><br>
+ <font style="color: #d16c00"
+   >
+I've never had my room in my life, so I have a strong obsession with 'my room' and 'my space'. I still don't have my room in Korea, and all the rooms I've been in the Netherlands were bad conditions like chicken coops. But I think finally I have a 'real' my room since I moved here, Nobelstraat. The spacious room, nice flatmates... Yesterday, I lay down to sleep and suddenly felt that my room is too big. I never imagined I'd be living in a room this big. I can decorate room for myself and bring friends... I divide the room in half and use it as a work space and a guest space. It's quite extravagant!<br><br>
+One of the reasons I left Korea is because I thought it was too hard for me to live in Korea. I thought that if I leave this country, something would change a lot. But when I came to live here, I realized. It was not a matter of the country, but I just needed my own independent space. It was really hard when I spent a long time in Korea last year because of COVID19. I missed my small room in the Netherlands, which was like a jail, because I could not do anything properly because there was no room for myself. That's why I thought a lot about <a href="https://en.wikipedia.org/wiki/A_Room_of_One%27s_Own"><i>A Room of One's Own</i></a> by Virginia Woolf on last year. </font>
+ </div>
+
+ <div
+   id="overlay-7"
+   style="
+   display: none;
+   width: 25%;
+   position: fixed;
+   top: 3.5%;
+   right: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background: rgba(255, 255, 255, 0.84);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #000"
+   >
+ <b>Do you have plans to go back to Korea or move to other countries? What's your future migration plans?</b>
+</font>
+<br><br>
+ <font style="color: #d16c00"
+   >
+ I'm leaving myself to the fate of the flow without any plans. It's Because I realized that life never goes as planned. But I still need more adventure and want to challenge, so I have a strong desire to live in another country. It seems to be the best thing to go to a country other than Korea and the Netherlands after graduation, but it will be okay to go back to Korea. Because now I know there is no perfect utopia anywhere. It is a little bit unfortunate that we may be physically separated from our precious friends here, but I think it's almost impossible to 'break' our relationship since we are living in the digital era? the internet era? </font>
+ <br><br>
+ <font style="color: #000"
+  >
+ Wow that sounds very old! It's like the word generation X uses.
+ </font>
+ <br><br>
+ <font style="color: #d16c00"
+  >
+ I don't know what the exact word is! But you know what I'm trying to say. There are messengers, Instagram and Facebook... There are many ways we can contact and continue our relationship. I think that our memories and minds do not get away because our bodies are get far away. I still don't feel the size of our hearts has changed when I visit Korea every year to meet the people I love in there.
+ </font>
+</div>
+
+ <div
+   id="overlay-8"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+
+ <font style="color: #d16c00"
+   >
+ Eunseo shared this Monstera Adansoni. She is the one who recommended me to grow plants, so it's the most meaningful plant in my room. Since its leaves looks so weird, when I was in a video tutoring class, my student asked if it is a real plant.
+</font>
+</div>
+
+   <div id="overlay-9"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #d16c00"
+   >
+Currently I am raising this plant instead of Hyewon, who went to Korea to do internship. When Hyewon gave it to me it was almost dying, but when it came to my room it miraculously survived. Even few weeks ago, it began to bloom. Hyewon told me she's sorry for the plant to take it back to her house.</font>
+ </div>
+
+ <div
+   id="overlay-10"
+   style="
+
+   display: none;
+   width: 25%;
+   position: fixed;
+bottom: 3.5%;
+   left: 3.5%;
+   font-size: 16pt;
+   padding: 1.2em;
+   background:  rgba(243, 247, 129, 0.87);
+   overflow-x: hidden;
+   overflow-y: scroll;
+   "
+ >
+ <font style="color: #d16c00"
+   >
+Guest bed. The mattress and carpet belongs to Cyan and all of my guests (friends) use this part as their bed. Everyone who slept here told me they spent night as comfortable as they slept in their own room.
+</font>
+</div>
+
+<div
+  id="overlay-11"
+  style="
+  display: none;
+  width: 25%;
+  position: fixed;
+  top: 3.5%;
+  right: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background: rgba(255, 255, 255, 0.84);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+
+<font style="color: #000"
+ >
+<b>Have you ever felt like a family with Korean friends in the Netherlands? Is there any episode related?</b>
+</font>
+<br><br>
+
+<font style="color: #d16c00"
+  >
+  When I first came here, I didn't really have any Korean friends. There were not many Koreans in school and the only community I was in was school. So there was a time when I was extremely lonely here, even though I had really good friends from school. I'm supposed to say it's hard to form a concrete consensus with them. I think that's why I was lonely. I had a feeling like I’m just floating around… But in the 2nd grade, it was starting to calm down emotionally little by little with Hyewon and some other Korean friends. I didn't think us as a family at the time, but now time has passed and we become more friendly, I think we formed a new type of family relationship.<br><br>
+  As there are more people I can share same emotional experience, I started to feel like we are real family. I'm seeing them more than my family, honestly. I've only been in Korea for two months. I see them here every day. They're the ones who will come to me no matter what happens to me right now. Because of them I realized the beauty of this plastic family. It's not a very appropriate word for this context, but I'd like to quote Andy Warhol. “I love Los Angeles, and I love Hollywood. They're beautiful. Everybody's plastic, but I love plastic. I want to be plastic.”
+
+</font>
+</div>
+  </body>
+</html>

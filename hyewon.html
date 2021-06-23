@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <title>A Room of Our Own</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+
+    <link rel="stylesheet" href="style_hyewon.css">
+    <script>
+      AFRAME.registerComponent("change-color-on-hover", {
+        schema: {
+          color: {
+            default: "red",
+          },
+        },
+
+        init: function () {
+          var data = this.data;
+
+          var overlay1 = document.getElementById("overlay-1");
+          var overlay2 = document.getElementById("overlay-2");
+          var overlay3 = document.getElementById("overlay-3");
+          var overlay4 = document.getElementById("overlay-4");
+          var overlay5 = document.getElementById("overlay-5");
+          var overlay6 = document.getElementById("overlay-6");
+          var overlay7 = document.getElementById("overlay-7");
+          var overlay8 = document.getElementById("overlay-8");
+          var overlay9 = document.getElementById("overlay-9");
+          var overlay10 = document.getElementById("overlay-10");
+          // Object  1
+          var objext1 = document.getElementById("object1");
+          objext1.addEventListener("mouseenter", function () {
+            showOverlay1();
+          });
+          objext1.addEventListener("mouseleave", function () {
+            hideOverlay1();
+          });
+          function showOverlay1() {
+            overlay1.style.display = "block";
+          }
+          function hideOverlay1() {
+            overlay1.style.display = "none";
+          }
+
+          // Object  2
+          var objext2 = document.getElementById("object2");
+          objext2.addEventListener("mouseenter", function () {
+            showOverlay2();
+          });
+          objext2.addEventListener("mouseleave", function () {
+            hideOverlay2();
+          });
+          function showOverlay2() {
+            overlay2.style.display = "block";
+          }
+          function hideOverlay2() {
+            overlay2.style.display = "none";
+          }
+
+          // Object  3
+          var objext3 = document.getElementById("object3");
+          objext3.addEventListener("mouseenter", function () {
+            showOverlay3();
+          });
+          objext3.addEventListener("mouseleave", function () {
+            hideOverlay3();
+          });
+          function showOverlay3() {
+            overlay3.style.display = "block";
+          }
+          function hideOverlay3() {
+            overlay3.style.display = "none";
+          }
+
+          // Object  4
+          var objext4 = document.getElementById("object4");
+          objext4.addEventListener("mouseenter", function () {
+            showOverlay4();
+          });
+          objext4.addEventListener("mouseleave", function () {
+            hideOverlay4();
+          });
+          function showOverlay4() {
+            overlay4.style.display = "block";
+          }
+          function hideOverlay4() {
+            overlay4.style.display = "none";
+          }
+
+          // Object  5
+          var objext5 = document.getElementById("object5");
+          objext5.addEventListener("mouseenter", function () {
+            showOverlay5();
+          });
+          objext5.addEventListener("mouseleave", function () {
+            hideOverlay5();
+          });
+          function showOverlay5() {
+            overlay5.style.display = "block";
+          }
+          function hideOverlay5() {
+            overlay5.style.display = "none";
+          }
+
+          // Object  6
+          var objext6 = document.getElementById("object6");
+          objext6.addEventListener("mouseenter", function () {
+            showOverlay6();
+          });
+          objext6.addEventListener("mouseleave", function () {
+            hideOverlay6();
+          });
+          function showOverlay6() {
+            overlay6.style.display = "block";
+          }
+          function hideOverlay6() {
+            overlay6.style.display = "none";
+          }
+
+          // Object  7
+          var objext7 = document.getElementById("object7");
+          objext7.addEventListener("mouseenter", function () {
+            showOverlay7();
+          });
+          objext7.addEventListener("mouseleave", function () {
+            hideOverlay7();
+          });
+          function showOverlay7() {
+            overlay7.style.display = "block";
+          }
+          function hideOverlay7() {
+            overlay7.style.display = "none";
+          }
+
+          // Object  8
+          var objext8 = document.getElementById("object8");
+          objext8.addEventListener("mouseenter", function () {
+            showOverlay8();
+          });
+          objext8.addEventListener("mouseleave", function () {
+            hideOverlay8();
+          });
+          function showOverlay8() {
+            overlay8.style.display = "block";
+          }
+          function hideOverlay8() {
+            overlay8.style.display = "none";
+          }
+
+          // Object  9
+          var objext9 = document.getElementById("object9");
+          objext9.addEventListener("mouseenter", function () {
+            showOverlay9();
+          });
+          objext9.addEventListener("mouseleave", function () {
+            hideOverlay9();
+          });
+          function showOverlay9() {
+            overlay9.style.display = "block";
+          }
+          function hideOverlay9() {
+            overlay9.style.display = "none";
+          }
+
+          // Object  10
+          var objext10 = document.getElementById("object10");
+          objext10.addEventListener("mouseenter", function () {
+            showOverlay10();
+          });
+          objext10.addEventListener("mouseleave", function () {
+            hideOverlay10();
+          });
+          function showOverlay10() {
+            overlay10.style.display = "block";
+          }
+          function hideOverlay10() {
+            overlay10.style.display = "none";
+          }
+
+
+
+
+        },
+      });
+    </script>
+  </head>
+  <body>
+    <div class="navigation">
+      <!-- Trigger/Open The Modal -->
+<img src="https://i.imgur.com/vwxTVeA.png" alt="Workplace" usemap="#workmap" width="300px">
+      </div>
+
+      <map name="workmap">
+  <area shape="rect" coords="38,170,51,183" alt="eunseo" href="https://aroomofourown.xyz/eunseo.html">
+  <area shape="rect" coords="82.5,70,95,83" alt="hyewon" href="https://aroomofourown.xyz/hyewon.html">
+  <area shape="rect" coords="156,129,168,140" alt="dahseul" href="https://aroomofourown.xyz/dahseul.html">
+  <area shape="rect" coords="195,57,207,69" alt="cyan" href="https://aroomofourown.xyz/chaeyeon.html">
+  <area shape="rect" coords="267,170.5,278.5,183" alt="eunjin" href="https://aroomofourown.xyz/eunjin.html">
+</map>
+
+    <a-scene background="color: #EFD048">
+
+      <a-entity
+        position="1 1.3 -2.5"
+        radius="0.5"
+        height="2"
+        color="#FFC65D"
+        event-set__enter="_event: mouseenter; _target: #eunseoVideo; visible: true"
+        event-set__leave="_event: mouseleave; _target: #eunseoVideo; visible: false"
+      >
+        <a-video
+          id="eunseoVideo"
+          autoplay
+          muted
+          loop="true"
+          src="https://eunjinishere.xyz/hw_video.mp4"
+          align="center"
+          scale="20 18 18"
+          color="#FFF"
+          visible="false"
+          position="16 5 10"
+          rotation="0 230 0"
+        ></a-video>
+
+        <a-sound
+        src="https://aroomofourown.xyz/interview_hyewon.mp3"
+        autoplay="true"
+        visible="false"
+        loop="true"
+        position="1 2 -10">
+        </a-sound>
+
+
+      </a-entity>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="0 2 15"
+        scale="3.5 6.5 3.5"
+        change-color-on-hover="color: blue"
+        id="object1"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-3 0 -10"
+        scale="4 4 4"
+        change-color-on-hover="color: blue"
+        id="object2"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="2 -2 -1"
+        scale="2 2 2"
+        change-color-on-hover="color: blue"
+        id="object3"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-8 2.5 -7"
+        scale="4 2 4"
+        change-color-on-hover="color: blue"
+        id="object4"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-1 5 -10"
+        scale="3.5 3 3.5"
+        change-color-on-hover="color: blue"
+        id="object5"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-5 4 17"
+        scale="4.5 4.5 4.5"
+        change-color-on-hover="color: blue"
+        id="object6"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-8 1 8"
+        scale="4 4 4"
+        change-color-on-hover="color: blue"
+        id="object7"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="-10 1 -2"
+        scale="2 3 2"
+        change-color-on-hover="color: blue"
+        id="object8"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="1 3 -10"
+        scale="2 2 2"
+        change-color-on-hover="color: blue"
+        id="object9"
+      ></a-box>
+
+      <a-box
+        color="trasparent"
+        opacity= "0"
+        position="4 1 1"
+        scale="3 1 3"
+        change-color-on-hover="color: blue"
+        id="object10"
+      ></a-box>
+
+      <a-obj-model scale="0.8 0.8 0.8" rotation="0 240 -5" position="-9 -1 -5" src="https://eunjinishere.xyz/kitchen_3/model.obj" mtl="https://eunjinishere.xyz/kitchen_3/model.mtl"></a-obj-model>
+<a-obj-model scale="1 1 1" rotation="0 120 0" position="3 -1 -3" src="https://eunjinishere.xyz/bed2/model.obj" mtl="https://eunjinishere.xyz/bed2/model.mtl"></a-obj-model>
+<a-obj-model scale="1.5 1.5 1.5" rotation="0 10 0" position="-1 0 5" src="https://eunjinishere.xyz/mirrorwithclothes/model.obj" mtl="https://eunjinishere.xyz/mirrorwithclothes/model.mtl"></a-obj-model>
+<a-obj-model scale="0.7 0.7 0.7" rotation="0 180 0" position="1 1 -6" src="https://eunjinishere.xyz/desk/model.obj" mtl="https://eunjinishere.xyz/desk/model.mtl"></a-obj-model>
+
+<a-camera>
+  <a-cursor></a-cursor>
+</a-camera>
+</a-scene>
+
+<div
+  id="overlay-1"
+  style="
+
+  display: none;
+  width: 25%;
+  position: fixed;
+bottom: 3.5%;
+  left: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background:  rgba(243, 247, 129, 0.87);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+<font style="color: #A18A04"
+  >
+  It's pretty to look at, so it's a place where I'm satisfied with myself. It's quite messy, but there's rules and I'm the only one who knows them. I bought a hanger (2 euros) by second-hand direct deal in The Hague, which cost more transportation fee then hanger itself.
+I'm not good at arithmetic. I didn't think there's gonna be a lot of necklaces at that time, so I'm narrowly hanging them, but I just lay down the rest of the kids so I can't feel the inconvenience yet. They might feel it but I'm not.<br>
+Each design is different and the places I bought are different, too. At a glance, I can recall my memories in Berlin, Paris or Korea by them.</font>
+</div>
+
+<div
+  id="overlay-2"
+  style="
+    display: none;
+    width: 25%;
+    position: fixed;
+    top: 3.5%;
+    right: 3.5%;
+    font-size: 16pt;
+    padding: 1.2em;
+    background: rgba(255, 255, 255, 0.92);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  "
+>
+<b>What does the 'room' mean to you? Does the room in Korea and the room in here mean different to you?</b><br><br>
+<font style="color: #A18A04"
+  >
+  First of all,I can't smoke in my place in Korea! My parents don't know I'm a smoker. It’s a secret! I think it's my home in the Netherlands where I feel 100% like it's my space. Obviously we are a connected family and that place is 'our house' but I feel like a guest now. I've had this feeling since last year. I have my own space in my mom's house and aunt's house, but can I call it my own space? When I’m in house in Korea, whether it's my mom's or my aunt's, I feel like I’m staying in Airbnb house, where free accommodation and meals are provided. Since I live in the Netherlands, I feel like I'm floating around when I get back to Korea. I talked about this matter with my mom before, and she agreed with it. It'
+  s inevitable. My Korean house is my mother's space and my space is my room in the Netherlands.</font>
+</div>
+
+<div
+  id="overlay-3"
+  style="
+
+  display: none;
+  width: 25%;
+  position: fixed;
+bottom: 3.5%;
+  left: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background:  rgba(243, 247, 129, 0.87);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+<font style="color: #A18A04"
+  >
+My best friend brought it from Gangneung, South Korea. It has a perfect height to use as a pillow, so I often use it as a pillow when there was no pillow. If you sleep several times with it, it will flatten, but if you wash it with a washing machine, it swells again. When I lie down without removing my makeup, I feel sorry to put my lipstick mark on this friend's white fur.
+</font>
+</div>
+
+<div
+  id="overlay-4"
+  style="
+
+  display: none;
+  width: 25%;
+  position: fixed;
+bottom: 3.5%;
+  left: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background:  rgba(243, 247, 129, 0.87);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+  <font style="color: #A18A04"
+    >
+They are bags which are divided into 2 categories that are not for school and for school. When I'm going to school, I use the yellow bag that does not break well even if I put a laptop in it. Its storage space is large, and the stitching is relatively strong. In small bags, I just simply put lipstick, cigarettes, phones and wallets since they're not for school. When I go to school, I have a lot of stuffs to bring, so I want to go out as lightly as possible when I'm not going to school.
+</div>
+
+<div
+  id="overlay-5"
+  style="
+    display: none;
+    width: 25%;
+    position: fixed;
+    top: 3.5%;
+    right: 3.5%;
+    font-size: 16pt;
+    padding: 1.2em;
+    background: rgba(255, 255, 255, 0.92);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  "
+>
+<font style="color: #000">
+<b>Do you feel like you are 'adapted' to the Netherlands? When do you feel it?</b></font><br><br>
+<font style="color: #A18A04"
+  >
+When I’m used to the scenery? I don’t think like buildings are amazing or scenery is beautiful or exotic anymore. Just when everything feels like a normal landscape I’m used to. So there are times when I don't feel much different from my daily life in Korea. And I got used to Dutch food so I can say when I’m packing sandwiches for lunch? Oh and it's good that people don't pay much attention to each other. I think that's the biggest difference between Korea and the Netherlands. That's why I'm not mentally nervous in here.</font>
+</div>
+
+<div
+  id="overlay-6"
+  style="
+    display: none;
+    width: 25%;
+    position: fixed;
+    top: 3.5%;
+    right: 3.5%;
+    font-size: 16pt;
+    padding: 1.2em;
+    background: rgba(255, 255, 255, 0.84);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  "
+>
+  <font style="color: #000">
+<b>Have you ever felt like a 'family' with Korean friends in the Netherlands? Is there any episode related?</b></font><br><br>
+  <font style="color: #A18A04"
+    >It is comforting to share and sympathize with my hardships and episodes that I thought were really a problem. There's comfort that only those who have been through can do. They can understand my story ‘properly’ and I don’t have to explain everything from A to Z. That's when I feel like we are a family. In the past I didn't have that many Korean friends, so I had few people to talk to and I didn't want to tell anyone about my own problems or concerns. But this year, and also last year, we've been drinking and spending time together at your place. Not only your place but also my place, we've talked a lot about this and that. I think those times made me feel like this. I think there are many things that I learn by listening to various opinions and experiences of other people like me.
+</font
+  >
+</div>
+
+<div
+  id="overlay-7"
+  style="
+    display: none;
+    width: 25%;
+    position: fixed;
+    top: 3.5%;
+    right: 3.5%;
+    font-size: 16pt;
+    padding: 1.2em;
+    background: rgba(255, 255, 255, 0.84);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  "
+>
+<font style="color: #000">
+<b>Do you feel that your life as a queer has changed since you came to the Netherlands? What is the difference between life as a queer in Korea?</b></font><br><br>
+  <font style="color: #A18A04"
+    >
+    In Korea, there are extremely few people who feel that I can come out and I'm less nervous about coming out here. In Korea, there are so many things that I have to explain and people asking me things like why did it ‘happen’, whether there's a chance of change in the future, whether you'll meet a man for life, and so on. It's a pain to be stressed out. They are like: If you’re not straight, then you’re a lesbian? And lesbian is a transgender, right? So you're Harisu?</font><br><br>
+<img src="https://i.imgur.com/i0IYOj8.jpg" width="100%"><br>
+<font style="color: #666"
+  ><i>Harisu is a Korean pop singer, model, and actress. She is Korea's first transgender entertainer.</i></font>
+  <br><br>
+    <font style="color: #000"
+      >Wow... that's horrible and it was perfect Gyeongsang-do hyperrealism.</font><br><br>
+      <font style="color: #A18A04"
+        >But the problem is, if I come out, I think my family will do this to me. It can be happen… I think it is very different here that I don't need to 'explain' or 'commentary' relatively. I mean, it's relatively less than Korea.
+</font
+  >
+</div>
+
+<div
+  id="overlay-8"
+  style="
+
+  display: none;
+  width: 25%;
+  position: fixed;
+bottom: 3.5%;
+  left: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background:  rgba(243, 247, 129, 0.87);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+<font style="color: #A18A04"
+  >
+I collect bottles of wine I drank next to the induction, which is a kind of collection box function, but I feel like collecting the time I spent with the people who came over to my house. All of my guests have different wine tastes, so wine bottle stickers are all different. Red, white or sparkling... It's hard to remember everything, but I can remember one of the really funny things by them. It is also good to use as a vase, so sometimes I put flowers in them.</font>
+</div>
+
+<div
+  id="overlay-9"
+  style="
+
+  display: none;
+  width: 25%;
+  position: fixed;
+bottom: 3.5%;
+  left: 3.5%;
+  font-size: 16pt;
+  padding: 1.2em;
+  background:  rgba(243, 247, 129, 0.87);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  "
+>
+<font style="color: #A18A04"
+  >
+  I brought this plant in September 2020, determined to collect plants as it began its new semester. But I'm not good at growing plants, and I put it on the window to get the sunlight but window is right in front of the radiator... it was in a bad state and now it's in process of recovering. I'm impressed by see the new leaves everyday.
+</font>
+</div>
+
+<div
+  id="overlay-10"
+  style="
+    display: none;
+    width: 25%;
+    position: fixed;
+    top: 3.5%;
+    right: 3.5%;
+    font-size: 16pt;
+    padding: 1.2em;
+    background: rgba(255, 255, 255, 0.92);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  "
+>
+<font style="color: #000">
+<b>Have you ever felt like you were not being welcomed as a 'foreigner' or 'other'?</b></font><br><br>
+<font style="color: #A18A04"
+  >
+  It's hard to limit this matter to the Netherlands, but I'm feeling more of those feelings this time because of COVID19.	Especially when I applied for an internship, one studio opened my e-mail more than 40 times and did not reply me. When I asked again, they sent me a reply that they can't hire non-EU people because of COVID19. Don't you think the excuse is weird? It's nonsense. It's hard to simply say one experience as an answer, and I often face a thick wall that's way over my ability so I can't break. When I face this kind of thick walls that I can never persuade at any decisive moment because I am a stranger, a foreigner... Then I feel like I'm an alien although I feel comfortable and mixed well with the people here.</font>
+</div>
+  </body>
+</html>
