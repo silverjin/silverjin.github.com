@@ -3,12 +3,12 @@
  * Circular mouse trail logic from Tim Tilton on Dynamic Drive http://dynamicdrive.com/dynamicindex13/circletext.htm
  */
 
-const PARROTS = 25,
-      SIZE = 30,
+const PARROTS = 10,
+      SIZE = 32,
       SPACING = 4,
       DIAMETER = 30,
       ROTATION = 0.1,
-      SPEED = 0.3,
+      SPEED = 0.1,
       OFFSET = 20;
 
 let parrots = [],

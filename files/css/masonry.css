@@ -58,7 +58,7 @@ a {
 /* Masonry grid */
 .masonry {
   transition: all .5s ease-in-out;
-  column-gap: 40px;
+  column-gap: 0px;
   column-fill: initial;
 }
 
@@ -82,7 +82,7 @@ a {
 /* Bordered masonry */
 .masonry.bordered {
   column-rule: 1px solid #eee;
-  column-gap: 50px;
+  column-gap: 30px;
 }
 
 .masonry.bordered .brick {
@@ -118,6 +118,6 @@ a {
   }
 
   .masonry {
-    column-count: 3;
+    column-count: 2;
   }
 }
