@@ -91,8 +91,8 @@
 body {
   margin-right: 30px;
   font-weight: 400;
-  color: #ff4432;
-  background: #fff7b3;  /* fallback for old browsers */
+  color: #1a2a7d;
+  background: #eee;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #fffcdc, #eee);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #fffcdc, #eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
@@ -129,6 +129,8 @@ border-radius: 30%/30%;
 ::-webkit-scrollbar {
     width: 5px;
     background: #eee;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #eee);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ::-webkit-scrollbar-track {
@@ -137,7 +139,7 @@ border-radius: 30%/30%;
 
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px #ff4432;
+    -webkit-box-shadow: inset 0 0 5px #1a2a7d;
 }
 
 /* Next & previous buttons */
@@ -186,7 +188,7 @@ a {
 
 /* unvisited link */
 a:link {
-  color: #ff4432;
+  color: #1a2a7d;
   text-decoration: none;
   opacity: 1;
   -webkit-transition: .1s ease-in-out;
@@ -196,13 +198,13 @@ a:link {
 
 /* visited link */
 a:visited {
-color: #ff4432;
+color: #1a2a7d;
 }
 
 
 /* selected link */
 a:active {
-color: #ff4432;
+color: #1a2a7d;
 }
 
 a:hover {
@@ -333,7 +335,7 @@ border-radius: 30%/30%;
   line-height: 1.2em;
   font-size: 14pt;
   font-weight: bold;
-    color: #ff4432;
+    color: #1a2a7d;
 }
 
 #titles2 {
@@ -341,7 +343,7 @@ border-radius: 30%/30%;
   line-height: 1.2em;
   font-size: 14pt;
   font-weight: bold;
-    color: #ff4432;
+    color: #1a2a7d;
 }
 
 
@@ -432,7 +434,7 @@ width: 100%;
   float: right;
   display: inline-block;
   z-index: 80;
-  color: #ff4432;
+  color: #1a2a7d;
 }
 
 .bleft {
@@ -444,7 +446,7 @@ width: 100%;
   width: 50%;
   display: inline-block;
   z-index: 80;
-  color: #ff4432;
+  color: #1a2a7d;
 }
 
 .team {
@@ -717,7 +719,7 @@ color: #000;
     float: right;
     display: inline-block;
     z-index: 80;
-    color: #ff4432;
+    color: #1a2a7d;
   }
 
   .bleft {
@@ -729,7 +731,7 @@ color: #000;
     width: 40%;
     display: inline-block;
     z-index: 80;
-    color: #ff4432;
+    color: #1a2a7d;
 
   }
 
