@@ -334,7 +334,6 @@ border-radius: 30%/30%;
   font-family:  'ApfelGrotezk-Fett';
   line-height: 1.2em;
   font-size: 14pt;
-  font-weight: bold;
     color: #1a2a7d;
 }
 
@@ -342,7 +341,6 @@ border-radius: 30%/30%;
   font-family:  'ApfelGrotezk-Fett';
   line-height: 1.2em;
   font-size: 14pt;
-  font-weight: bold;
     color: #1a2a7d;
 }
 
@@ -608,21 +606,18 @@ color: #000;
     font-family:  'ApfelGrotezk-Fett';
     line-height: 1.2em;
     font-size: 12pt;
-    font-weight: bold;
   }
 
   #titles2 {
     font-family:  'ApfelGrotezk-Fett';
     line-height: 1.2em;
     font-size: 12pt;
-    font-weight: bold;
   }
 
   #titles3 {
     font-family:  'Porpora-Regular';
     line-height: 1.2em;
     font-size: 12pt;
-    font-weight: bold;
   }
 
   .scrolltext {
@@ -665,7 +660,7 @@ color: #000;
     text-align: left;
     position: relative;
     float: left;
-    width: 55%;
+    width: 80%;
     display: inline-block;
     z-index: 90;
   }
