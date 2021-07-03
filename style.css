@@ -644,13 +644,10 @@ color: #000;
     padding-top: 2.1em;
     padding-left: 1.7em;
     padding-right: 1.7em;
-    width: 100%;
+    width: 95%;
     height: 25%;
     z-index: 110;
   font-family: 'ApfelGrotezk-Fett';
-  background: -webkit-linear-gradient(to bottom, #eee, transparent);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #eee, transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   }
 
   .titles {
