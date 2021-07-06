@@ -681,15 +681,14 @@ color: #000;
     width: 100%;
     display: inline-block;
     z-index: 80;
-    padding-bottom: 3px;
   }
 
   .titles2 {
     font-family: 'ApfelGrotezk-Fett';
     line-height: 1.2em;
     font-size: 14pt;
-    text-align: right;
-    float: right;
+    text-align: left;
+    float: left;
     position: relative;
     display: inline-block;
     z-index: 80;
