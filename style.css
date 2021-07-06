@@ -128,9 +128,9 @@ border-radius: 30%/30%;
 
 ::-webkit-scrollbar {
     width: 5px;
-    background: #eee;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #fffcdc, #eee);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #fffcdc, #eee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff7b3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fffcdc, #fff7b3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #fff7b3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ::-webkit-scrollbar-track {
@@ -576,6 +576,7 @@ color: #000;
 }
 @media (max-width : 900px) {
 
+
   .middle {
     position: relative;
     padding-left: 1.7em;
@@ -673,7 +674,7 @@ color: #000;
   .titles {
     font-family:'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: left;
     position: relative;
     float: left;
@@ -682,6 +683,18 @@ color: #000;
     z-index: 80;
     padding-bottom: 20px;
   }
+
+  .titles2 {
+    font-family: 'ApfelGrotezk-Fett';
+    line-height: 1.2em;
+    font-size: 14pt;
+    text-align: right;
+    float: right;
+    position: relative;
+    display: inline-block;
+    z-index: 80;
+  }
+
 
   .bottom {
     position: relative;
@@ -698,7 +711,7 @@ color: #000;
   .bright {
     font-family: 'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 16pt;
+    font-size: 10pt;
     text-align: left;
     float: left;
     display: inline-block;
@@ -709,7 +722,7 @@ color: #000;
   .bleft {
     font-family:'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 16pt;
+    font-size: 10pt;
     text-align: left;
     float: left;
     width: 70%;
@@ -733,16 +746,3 @@ color: #000;
         padding-bottom: 25px;
         font-family: 'Porpora-Regular';
   }
-
-
-#cursor {
-position: absolute;
-z-index: 120;
-}
-
-#body {
-height: 32px;
-width: 32px;
-border-radius: 30%/30%;
-
-}
