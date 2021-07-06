@@ -588,7 +588,7 @@ color: #000;
   height: 100%;
       overflow: hidden;
         padding-bottom: 25px;
-        padding-top: 8em;
+        padding-top: 6em;
   }
 
   .slideshow-container {
@@ -646,7 +646,7 @@ color: #000;
     padding-left: 1.7em;
     padding-right: 1.7em;
     width: 100%;
-    height: 30%;
+    height: 28%;
     z-index: 110;
   font-family: 'ApfelGrotezk-Fett';
   }
@@ -681,7 +681,7 @@ color: #000;
     width: 100%;
     display: inline-block;
     z-index: 80;
-    padding-bottom: 20px;
+    padding-bottom: 3px;
   }
 
   .titles2 {
