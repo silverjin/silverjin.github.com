@@ -129,8 +129,8 @@ border-radius: 30%/30%;
 ::-webkit-scrollbar {
     width: 5px;
     background: #fff7b3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #fffcdc, #fff7b3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #fffcdc, #fff7b3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #fffcdc, #cbf7d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fffcdc, #cbf7d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 ::-webkit-scrollbar-track {
@@ -577,6 +577,10 @@ color: #000;
 @media (max-width : 900px) {
 
 
+  .masonry {
+    column-count: 2;
+  }
+
   .middle {
     position: relative;
     padding-left: 1.7em;
@@ -606,19 +610,19 @@ color: #000;
   #titles {
     font-family:  'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 12pt;
+    font-size: 14pt;
   }
 
   #titles2 {
     font-family:  'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 12pt;
+    font-size: 14pt;
   }
 
   #titles3 {
     font-family:  'Porpora-Regular';
     line-height: 1.2em;
-    font-size: 12pt;
+    font-size: 14pt;
   }
 
   .scrolltext {
@@ -710,7 +714,7 @@ color: #000;
   .bright {
     font-family: 'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 10pt;
+    font-size: 14pt;
     text-align: left;
     float: left;
     display: inline-block;
@@ -721,10 +725,10 @@ color: #000;
   .bleft {
     font-family:'ApfelGrotezk-Fett';
     line-height: 1.2em;
-    font-size: 10pt;
+    font-size: 14pt;
     text-align: left;
     float: left;
-    width: 70%;
+    width: 100%;
     display: inline-block;
     z-index: 80;
     color: #628bff;
