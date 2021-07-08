@@ -218,7 +218,7 @@ a:hover {
 .titles {
   font-family:'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
   text-align: left;
   position: relative;
   float: left;
@@ -230,7 +230,7 @@ a:hover {
 .titles2 {
   font-family: 'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
   text-align: right;
   float: right;
   position: relative;
@@ -240,12 +240,12 @@ a:hover {
 
 #b2 {
     font-weight: 700;
-    font-size: 16pt;
+    font-size: 1.5em;
     font-family: 'ApfelGrotezk-Fett';
 }
 
 #b3 {
-    font-size: 16pt;
+    font-size: 1.5em;
     font-family: 'ApfelGrotezk-Fett';
 }
 
@@ -302,7 +302,7 @@ background: linear-gradient(to bottom,#cbf7d2, transparent); /* W3C, IE 10+/ Edg
 .right_text {
   font-family: 'ApfelGrotezk-Fett';
   color: black;
-  font-size: 16pt;
+  font-size: 1.5em;
   line-height: 1.2;
   margin-top: 31px;
   margin-left: 20px;
@@ -333,14 +333,14 @@ border-radius: 30%/30%;
 #titles {
   font-family:  'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
     color: #628bff;
 }
 
 #titles2 {
   font-family:  'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
     color: #628bff;
 }
 
@@ -427,7 +427,7 @@ width: 100%;
 .bright {
   font-family: 'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
   text-align: right;
   float: right;
   display: inline-block;
@@ -438,7 +438,7 @@ width: 100%;
 .bleft {
   font-family:'ApfelGrotezk-Fett';
   line-height: 1.2em;
-  font-size: 16pt;
+  font-size: 1.5em;
   text-align: left;
   float: left;
   width: 50%;
@@ -517,7 +517,7 @@ color: #000;
     float: left;
     font-family: 'ApfelGrotezk-Fett';
     color: black;
-    font-size: 16pt;
+    font-size: 1.5em;
     overflow: hidden;
     line-height: 1.3em;
     position: relative;
@@ -635,7 +635,7 @@ color: #000;
       float: left;
       font-family: 'ApfelGrotezk-Fett';
       color: black;
-      font-size: 16pt;
+      font-size: 1.5em;
       overflow: hidden;
       line-height: 1.3em;
       position: relative;
