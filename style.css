@@ -407,21 +407,33 @@ width: 100%;
 height: 100%;
 vertical-align: top;
     overflow: hidden;
-      padding-bottom: 40px;
+      padding-bottom: 2.5em;
       padding-top: 6em;
 }
 
+
+.bottom_about {
+  position: absolute;
+  padding-right: 2em;
+  padding-left: 2em;
+  vertical-align: bottom;
+width: 100%;
+height: 3em;
+    overflow: hidden;
+      bottom: 1em;
+      z-index: 101;
+}
 
 .bottom {
   position: relative;
   padding-right: 2em;
   padding-left: 2em;
   vertical-align: bottom;
-display: block;
 width: 100%;
+height: 3em;
     overflow: hidden;
-      padding-bottom: 2.2em;
-      bottom: 0px;
+      bottom: 1em;
+      z-index: 101;
 }
 
 .bright {
@@ -591,7 +603,7 @@ color: #000;
   width: 100%;
   height: 100%;
       overflow: hidden;
-        padding-bottom: 25px;
+        padding-bottom: 1.2em;
         padding-top: 6em;
   }
 
@@ -659,6 +671,7 @@ color: #000;
 
   .team {
   width: 100%;
+  margin-top: -0.2em;
   }
 
   .middle3 {
@@ -670,7 +683,7 @@ color: #000;
   color: #000;
       float: left;
       overflow: hidden;
-        padding-bottom: 25px;
+        padding-bottom: 2em;
         padding-left: 0em;
         font-family: 'Porpora-Regular';
   }
@@ -704,11 +717,21 @@ color: #000;
     padding-right: 1.7em;
     padding-left: 1.7em;
     vertical-align: bottom;
-  display: block;
   width: 100%;
       overflow: hidden;
-      z-index: 100;
-      padding-bottom: 2em;
+      z-index: 101;
+      padding-bottom: 2.1em;
+  }
+
+  .bottom_about {
+    position: relative;
+    padding-right: 1.7em;
+    padding-left: 1.7em;
+    vertical-align: bottom;
+  width: 100%;
+      overflow: hidden;
+        bottom: 2.1em;
+        z-index: 101;
   }
 
   .bright {
@@ -733,6 +756,11 @@ color: #000;
     z-index: 80;
     color: #628bff;
 
+  }
+
+  .middle {
+        padding-top: 6.5em;
+        padding-bottom: 2.3em;
   }
 
 
