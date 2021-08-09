@@ -165,6 +165,19 @@ img {vertical-align: middle;}
 
 }
 
+.slideshow-container2 {
+  max-width: 90%;
+  padding-top: 0em;
+  padding-left: 2em;
+  display: inline-block;
+    vertical-align: top;
+  black-space: nowrap;
+  position: relative;
+  margin: auto;
+      margin-top: 15px;
+      margin-bottom: 1em;
+
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -395,7 +408,7 @@ border-radius: 50%/50%;
     float: left;
     overflow: hidden;
     font-family: 'Necto-Mono';
-    color: black;
+    color: #fef8f1;
     font-size: 10pt;
     line-height: 1.2em;
 }
