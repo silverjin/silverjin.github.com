@@ -1,56 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Ramabhadra&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap');
-
-@font-face {
-    font-family: 'ApfelGrotezk-Regular';
-    src: url('http://eunjinahn.me/sprat-regular-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/sprat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'ApfelGrotezk-Regular_light';
-    src: url('http://eunjinahn.me/sprat-regularlight-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/sprat-regularlight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'ApfelGrotezk-Regular';
-    src: url('http://eunjinahn.me/ApfelGrotezk-Regular.woff2') format('woff2'),
-         url('http://eunjinahn.me/ApfelGrotezk-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'didotmedium_italic';
-    src: url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff2') format('woff2'),
-         url('http://eunjinahn.me/didot_light/didot-htf-l06-light-ital-webfont.woff') format('woff');
-    -webkit-font-smoothing: antialiased;
-    font-weight:100;
-}
-
-@font-face {
-    font-family: 'Necto-Mono';
-    src: url('http://eunjinishere.xyz/Necto-Mono.woff2') format('woff2'),
-         url('http://eunjinishere.xyz/Necto-Mono.woff') format('woff');
-         -webkit-font-smoothing: antialiased;
-         font-weight:100;
-}
 
 @font-face {
     font-family: 'Porpora-Regular';
@@ -60,68 +7,12 @@
          font-weight:100;
 }
 
-@font-face {
-    font-family: 'IgnazioText-Regular';
-    src: url('http://eunjinishere.xyz/IgnazioText-Regular.woff2') format('woff2'),
-         url('http://eunjinishere.xyz/IgnazioText-Regular.woff') format('woff');
-         -webkit-font-smoothing: antialiased;
-         font-weight:100;
-}
-
-
-[class*='parrot'] {
-  position: absolute;
-  height: 32px;
-  width: 32px;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  z-index: 120;
-}
-
-.parrot-1 {
-  background-image: url('http://www.rw-designer.com/icon-image/9450-32x32x32.png');
-}
-
-.parrot-2 {
-  background-image: url('http://www.rw-designer.com/icon-image/9452-32x32x32.png');
-}
-
-.parrot-3 {
-  background-image: url('http://www.rw-designer.com/icon-image/10539-32x32x32.png');
-}
-
-.parrot-4 {
-  background-image: url('http://www.rw-designer.com/icon-image/9456-32x32x32.png');
-}
-
-.parrot-5 {
-  background-image: url('http://www.rw-designer.com/icon-image/10538-32x32x32.png');
-}
-
-.parrot-6 {
-  background-image: url('http://www.rw-designer.com/icon-image/10553-32x32x32.png');
-}
-
-.parrot-7 {
-  background-image: url('http://www.rw-designer.com/icon-image/9451-32x32x32.png');
-}
-
-.parrot-8 {
-  background-image: url('http://www.rw-designer.com/icon-image/10553-32x32x32.png');
-}
-
-.parrot-9 {
-  background-image: url('http://www.rw-designer.com/icon-image/10570-32x32x32.png');
-}
-
-.parrot-10 {
-  background-image: url('http://www.rw-designer.com/icon-image/10569-32x32x32.png');
-}
-
 
 body {
   color: black;
-background-color: rgb(210, 212, 206);
+  margin: 0;
+padding: 0;
+background-color: #fed1d3;
 background-attachment: fixed;
   font-weight: normal;
   overflow-x: hidden;
@@ -239,7 +130,7 @@ img {vertical-align: middle;}
 }
 
 .title {
-font-family: 'didotmedium_italic';
+font-family: 'Porpora-Regular';
   font-size: 16pt;
 }
 
@@ -274,52 +165,31 @@ a:visited {
   color: black;
 }
 
-/* mouse over link */
-a:hover {
-  filter:blur(3px);
-  opacity:.5;
-  transform: scale(.98);
-  box-shadow:none;
-  color: white;
-  transition: all .5s ease-in-out;
-}
 
 /* selected link */
 a:active {
   color: black;
 }
 
-::-webkit-scrollbar {
-    width: 5px;
-    background: rgb(210, 212, 206);  /* fallback for old browsers */
-    }
-
-::-webkit-scrollbar-track {
-        border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px #000;
-}
-
 
 #titles {
     font-family: 'Porpora-Regular';
-  font-size: 1.8em;
+  font-size: 2.5em;
   line-height: 1.2em;
-  padding-top: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 #b2 {
     font-weight: 700;
     font-size: 0.9em;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
 }
 
 #b3 {
     font-size: 0.9em;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
     color: black;
 }
 
@@ -327,21 +197,33 @@ a:active {
 
 
 .left{
-  padding: 3em;
-  padding-top: 1em;
-  width: 22%;
-  height: 100%;
+  background-color: #fed1d3;
+  border-bottom: 3px solid black;
+  width: 100%;
+  height: 13%;
   position: fixed;
   float: left;
   overflow-y: hidden;
   overflow-x: hidden;
-  font-family: 'Necto-Mono';
+  font-family: 'Porpora-Regular';
+}
+
+.right{
+  width: 100%;
+  height: 13%;
+  position: fixed;
+  float: right;
+  text-align: right;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: 'Porpora-Regular';
 }
 
 .des {
   margin-top: 10px;
   color: black;
 }
+
 
 .rotate {
   position: absolute;
@@ -365,7 +247,7 @@ a:active {
 
 
 .right_text {
-  font-family: 'Necto-Mono';
+  font-family: 'Porpora-Regular';
   color: black;
   font-size: 0.9em;
   line-height: 1.2;
@@ -396,16 +278,17 @@ border-radius: 50%/50%;
 
 
 .middle {
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 1em;
-  width: 70%;
+  position: relative;
+text-align: center;
+  padding-top: 5em;
+  width: 100%;
   vertical-align: top;
   z-index: -100;
 ;
-    float: right;
     overflow: hidden;
       padding-bottom: 2em;
+      font-size: 1.5em;
+      font-style: 'Porpora-Regular';
 }
 
 .middle2 {
@@ -419,7 +302,7 @@ border-radius: 50%/50%;
 ;
     float: left;
     overflow: hidden;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
     color: #fef8f1;
     font-size: 0.9em;
     line-height: 1.2em;
@@ -443,7 +326,7 @@ border-radius: 50%/50%;
   height: 100%;
     vertical-align: top;
     float: left;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
     overflow: hidden;
     line-height: 1.2em;
     position: relative;
@@ -499,7 +382,7 @@ border-radius: 50%/50%;
     display: inline-block;
       vertical-align: top;
       float: left;
-      font-family: 'Necto-Mono';
+      font-family: 'Porpora-Regular';
       color: black;
       overflow: hidden;
       line-height: 1.2em;
@@ -551,7 +434,7 @@ border-radius: 50%/50%;
     position: relative;
     overflow-x: hidden;
     overflow-y: visible;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
     line-height: 1.2em;
     float: left;
   }
@@ -617,7 +500,7 @@ border-radius: 50%/50%;
     height: 100%;
     vertical-align: top;
     float: left;
-    font-family: 'Necto-Mono';
+    font-family: 'Porpora-Regular';
     overflow: hidden;
     line-height: 1.2em;
     position: relative;
