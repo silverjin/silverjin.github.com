@@ -1,12 +1,27 @@
-function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+// Active isotope with jQuery code:
 
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
 
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
+var $grid = $('.grid').imagesLoaded( function() {
+  // init Isotope after all images have loaded
+  $grid.isotope({
+    itemSelector: '.grid-item',
+	  percentPosition: true,
+    gutter: 0,
+    masonry: {
+        // use outer width of grid-sizer for columnWidth
+        columnWidth: '.grid-sizer'
+    }
+  });
+});
+
+// Isotope click function
+$('.iso-nav a').click(function(){
+	$('.iso-nav a').removeClass('active');
+	$(this).addClass('active');
+
+	var selector = $(this).attr('data-filter');
+	$('.grid').isotope({
+		filter: selector
+	});
+	return false;
+});
